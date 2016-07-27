@@ -97,6 +97,7 @@ gulp.task('watch', function () {
     gulp.watch(['shared/less/**/*.less'], ['less']);
     gulp.watch(['./shared/*.html', './shared/*.md',
         './ls_vertretungsplan_me/*.html', './ls_vertretungsplan_me/*.md',
+        './ls_vertretungsplan_me/css/custom.css',
         './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html',
         '_config.yml', 'shared/css/*.css'], ['jekyll-rebuild']);
 });

@@ -3,6 +3,6 @@ layout: home
 ---
 
 Hallo!
-------
+======
 
 Blablalba
