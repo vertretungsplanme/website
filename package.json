@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-copy": "0.0.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-replace-path": "^0.4.0",
+    "through2": "^2.0.1",
+    "vinyl-paths": "^2.1.0"
+  }
+}
