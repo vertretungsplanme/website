@@ -11,7 +11,6 @@ var fs = require('fs');
 var walk = function(dir) {
     var results = [];
     var list = fs.readdirSync(dir);
-    gutil.log(list)
     list.forEach(function(file) {
         file = dir + '/' + file;
         var stat = fs.statSync(file);
@@ -35,13 +34,13 @@ gulp.task('jekyll-build', function (done) {
         .pipe(gulp.dest('ls_vertretungsplan_me')).on('end', function() {
         cp.spawn( jekyll , ['build', '--config', 'ls_vertretungsplan_me/_config_ls.yml'], {stdio: 'inherit'})
             .on('close', function() {
-                gutil.log('close');
-                gutil.log(walk('shared'));
-                /* gulp.src('shared/*')
-                    .pipe(replace(/shared/g, 'ls_vertretungsplan_me'))
-                    .pipe(print())
-                   // .pipe(vinylPaths(del))
-                    .on('finish', done)*/
+                files_shared = walk('shared');
+                for (var i = 0; i < files_shared.length; i++) {
+                    files_shared[i] = 'ls_vertretungsplan_me' + files_shared[i].substring('shared'.length)
+                }
+                del(files_shared).then(function(paths) {
+                    done()
+                });
             });
     });
 });
