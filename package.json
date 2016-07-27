@@ -4,10 +4,14 @@
     "del": "^2.2.1",
     "gulp": "^3.9.1",
     "gulp-copy": "0.0.2",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-less": "^3.1.0",
     "gulp-print": "^2.0.1",
+    "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
     "gulp-replace-path": "^0.4.0",
     "gulp-util": "^3.0.7",
+    "less-plugin-autoprefix": "^1.5.1",
     "through2": "^2.0.1",
     "vinyl-paths": "^2.1.0"
   }

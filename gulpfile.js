@@ -1,17 +1,31 @@
-var gulp        = require('gulp');
+var gulp = require('gulp');
 var browserSync = require('browser-sync');
-var cp          = require('child_process');
+var cp = require('child_process');
 var del = require('del');
 var vinylPaths = require('vinyl-paths');
 var replace = require('gulp-replace');
 var gutil = require('gulp-util');
 var print = require('gulp-print');
 var fs = require('fs');
+var less = require('gulp-less');
+var path = require('path');
+var LessAutoprefix = require('less-plugin-autoprefix');
+var autoprefix = new LessAutoprefix({ browsers: [
+    'Android >= 4',
+    'Chrome >= 20',
+    'Firefox >= 24', // Firefox 24 is the latest ESR
+    'Explorer >= 9',
+    'iOS >= 6',
+    'Opera >= 16',
+    'Safari >= 6'
+] });
+var cssmin = require('gulp-cssmin');
+var rename = require('gulp-rename');
 
-var walk = function(dir) {
+var walk = function (dir) {
     var results = [];
     var list = fs.readdirSync(dir);
-    list.forEach(function(file) {
+    list.forEach(function (file) {
         file = dir + '/' + file;
         var stat = fs.statSync(file);
         if (stat && stat.isDirectory()) results = results.concat(walk(file));
@@ -20,7 +34,7 @@ var walk = function(dir) {
     return results
 };
 
-var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
@@ -30,15 +44,15 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    gulp.src('shared/*')
-        .pipe(gulp.dest('ls_vertretungsplan_me')).on('end', function() {
-        cp.spawn( jekyll , ['build', '--config', 'ls_vertretungsplan_me/_config_ls.yml'], {stdio: 'inherit'})
-            .on('close', function() {
+    gulp.src('shared/**/*')
+        .pipe(gulp.dest('ls_vertretungsplan_me')).on('end', function () {
+        cp.spawn(jekyll, ['build'], {stdio: 'inherit', cwd: 'ls_vertretungsplan_me'})
+            .on('close', function () {
                 files_shared = walk('shared');
                 for (var i = 0; i < files_shared.length; i++) {
                     files_shared[i] = 'ls_vertretungsplan_me' + files_shared[i].substring('shared'.length)
                 }
-                del(files_shared).then(function(paths) {
+                del(files_shared).then(function (paths) {
                     done()
                 });
             });
@@ -55,20 +69,36 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['jekyll-build'], function() {
+gulp.task('browser-sync', ['less', 'jekyll-build'], function () {
     browserSync({
         server: {
-            baseDir: '_site'
+            baseDir: '_site/ls_vertretungsplan_me'
         }
     });
 });
 
+gulp.task('less', function () {
+    return gulp.src('./shared/less/flat-ui.less')
+        .pipe(less({
+            paths: [ path.join(__dirname, 'less', 'mixins'), path.join(__dirname, 'less', 'modules') ],
+            plugins: [autoprefix]
+        }))
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('_site/ls_vertretungsplan_me/css'))
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest('shared/css'));
+});
 
 /**
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*.html', '*.md', '_config_ls.yml'], ['jekyll-rebuild']);
+    gulp.watch(['shared/less/**/*.less'], ['less']);
+    gulp.watch(['./shared/*.html', './shared/*.md',
+        './ls_vertretungsplan_me/*.html', './ls_vertretungsplan_me/*.md',
+        './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html',
+        '_config.yml', 'shared/css/*.css'], ['jekyll-rebuild']);
 });
 
 /**

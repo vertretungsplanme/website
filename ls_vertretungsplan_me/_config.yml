@@ -18,6 +18,8 @@ twitter_username: ls_vplan
 exclude:
   - node_modules
   - gulpfile.js
+  - less
+destination: ../_site/ls_vertretungsplan_me
 
 # Build settings
 markdown: kramdown

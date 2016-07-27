@@ -1,0 +1,51 @@
+.dropdown-arrow-inverse {
+    border-bottom-color: #338bff !important;
+    border-top-color: #338bff !important
+}
+
+html, body {
+    height: 100%
+}
+
+.jumbotron.fullscreen {
+    min-height: 100%
+}
+
+.welcome-page {
+    background-image: -webkit-linear-gradient(top, #338bff 10%, #405b7f 100%);
+    background-image: linear-gradient(to bottom, #338bff 10%, #405b7f 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff338bff', endColorstr='#ff405b7f', GradientType=0);
+    color: #fff
+}
+
+.big-mockup {
+    float: right;
+    max-width: 70%
+}
+
+.navbar-brand img {
+    height: 100%;
+    margin-right: 10px;
+    margin-top: -5px
+}
+
+.btn .fa {
+    margin-right: 8px
+}
+
+#ramiio {
+    background: #880231
+}
+
+#ramiio img {
+    width: 100%;
+    max-width: 250px
+}
+
+@media (max-width: 767px) {
+    .big-mockup {
+        float: none;
+        max-width: 100%
+    }
+}
