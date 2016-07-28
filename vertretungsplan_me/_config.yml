@@ -6,22 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: LS Vertretungsplan
-email: lornsenschule@vertretungsplan.me
+title: Vertretungsplan.me
+email: info@vertretungsplan.me
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ls.vertretungsplan.me" # the base hostname & protocol for your site
-twitter_username: ls_vplan
-android_packagename: com.johan.vertretungsplan
-windows_phone_url: https://google.de
+url: "https://vertretungsplan.me" # the base hostname & protocol for your site
+twitter_username: vplan_app
+android_packagename: com.johan.vertretungsplan_2
 exclude:
   - node_modules
   - gulpfile.js
   - less
-destination: ../_site/ls_vertretungsplan_me
+destination: ../_site/vertretungsplan_me
 
 # Build settings
 markdown: kramdown

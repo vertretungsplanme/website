@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<div class="jumbotron fullscreen welcome-page">
+    <div class="container">
+        {{ content }}
+        <p><a class="btn btn-primary btn-lg btn-embossed" role="button" href='{{ "/features/" | prepend: site.baseurl }}'>
+            <span class="fa fa-info"></span>Mehr Informationen</a></p>
+        <p><a class="btn btn-success btn-lg btn-embossed" role="button" href='{{ "/download/" | prepend: site.baseurl }}'>
+            <span class="fa fa-download"></span>Download</a></p>
+    </div>
+</div>
+
+{% include footer.html %}
+{% include bottom_js.html %}
+
+</body>
+
+</html>

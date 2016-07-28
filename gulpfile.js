@@ -34,52 +34,113 @@ var walk = function (dir) {
     return results
 };
 
+var getEmptyFolders = function(dir) {
+    var results = [];
+    var list = fs.readdirSync(dir);
+    list.forEach(function(file) {
+        file = dir + '/' + file;
+        var stat = fs.statSync(file);
+        if (stat && stat.isDirectory()) {
+            results = results.concat(getEmptyFolders(file));
+            if (getFileCount(file) == 0) {
+                results.push(file);
+            }
+        }
+    });
+    return results;
+};
+
+var getFileCount = function(dir) {
+    var filesCount = 0;
+    var list = fs.readdirSync(dir);
+    list.forEach(function(file) {
+        file = dir + '/' + file;
+        var stat = fs.statSync(file);
+        if (stat && stat.isDirectory()) filesCount += getFileCount(file);
+        else filesCount ++;
+    });
+    return filesCount;
+};
+
 var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-/**
- * Build the Jekyll Site
- */
-gulp.task('jekyll-build', function (done) {
+var jekyllBuild = function(dir, done) {
     browserSync.notify(messages.jekyllBuild);
     gulp.src('shared/**/*')
-        .pipe(gulp.dest('ls_vertretungsplan_me')).on('end', function () {
-        cp.spawn(jekyll, ['build'], {stdio: 'inherit', cwd: 'ls_vertretungsplan_me'})
+        .pipe(gulp.dest(dir)).on('end', function () {
+        cp.spawn(jekyll, ['build'], {stdio: 'inherit', cwd: dir})
             .on('close', function () {
-                files_shared = walk('shared');
+                var files_shared = walk('shared');
                 for (var i = 0; i < files_shared.length; i++) {
-                    files_shared[i] = 'ls_vertretungsplan_me' + files_shared[i].substring('shared'.length)
+                    files_shared[i] = dir + files_shared[i].substring('shared'.length)
                 }
                 del(files_shared).then(function (paths) {
-                    done()
+                    var empty_folders = getEmptyFolders(dir);
+                    //del(empty_folders).then(function (paths) {
+                        done();
+                    //});
                 });
             });
     });
+};
+
+/**
+ * Build the Jekyll Site
+ */
+gulp.task('jekyll-build-ls', function (done) {
+    jekyllBuild('ls_vertretungsplan_me', done);
 });
 
 /**
  * Rebuild Jekyll & do page reload
  */
-gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+gulp.task('jekyll-rebuild-ls', ['jekyll-build-ls'], function () {
+    browserSync.reload();
+});
+
+
+/**
+ * Build the Jekyll Site
+ */
+gulp.task('jekyll-build-main', function (done) {
+    jekyllBuild('vertretungsplan_me', done);
+});
+
+/**
+ * Rebuild Jekyll & do page reload
+ */
+gulp.task('jekyll-rebuild-main', ['jekyll-build-main'], function () {
     browserSync.reload();
 });
 
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['less', 'jekyll-build'], function () {
+gulp.task('browser-sync-ls', ['jekyll-build-ls'], function () {
     browserSync({
         server: {
             baseDir: '_site/ls_vertretungsplan_me'
         },
-        logLevel: "debug",
         online: false
     });
 });
 
-gulp.task('less', function () {
+/**
+ * Wait for jekyll-build, then launch the Server
+ */
+gulp.task('browser-sync-main', ['jekyll-build-main'], function () {
+    browserSync({
+        server: {
+            baseDir: '_site/vertretungsplan_me'
+        },
+        online: false
+    });
+});
+
+var buildLess = function(dir) {
     return gulp.src('./shared/less/flat-ui.less')
         .pipe(less({
             paths: [ path.join(__dirname, 'less', 'mixins'), path.join(__dirname, 'less', 'modules') ],
@@ -87,25 +148,46 @@ gulp.task('less', function () {
         }))
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('_site/ls_vertretungsplan_me/css'))
+        .pipe(gulp.dest('_site/' + dir + '/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('shared/css'));
+};
+
+gulp.task('less-ls', function () {
+    return buildLess('ls_vertretungsplan_me')
+});
+
+gulp.task('less-main', function () {
+    return buildLess('vertretungsplan_me')
 });
 
 /**
  * Watch html/md files, run jekyll & reload BrowserSync
  */
-gulp.task('watch', function () {
-    gulp.watch(['shared/less/**/*.less'], ['less']);
+gulp.task('watch-ls', function () {
+    gulp.watch(['shared/less/**/*.less'], ['less-ls']);
     gulp.watch(['./shared/*.html', './shared/*.md',
         './ls_vertretungsplan_me/*.html', './ls_vertretungsplan_me/*.md',
         './ls_vertretungsplan_me/css/custom.css',
         './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html',
-        '_config.yml', 'shared/css/*.css'], ['jekyll-rebuild']);
+        '_config.yml', 'shared/css/*.css'], ['jekyll-rebuild-ls']);
+});
+
+/**
+ * Watch html/md files, run jekyll & reload BrowserSync
+ */
+gulp.task('watch-main', function () {
+    gulp.watch(['shared/less/**/*.less'], ['less-main']);
+    gulp.watch(['./shared/*.html', './shared/*.md',
+        './vertretungsplan_me/*.html', './vertretungsplan_me/*.md',
+        './vertretungsplan_me/css/custom.css',
+        './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html',
+        '_config.yml', 'shared/css/*.css'], ['jekyll-rebuild-main']);
 });
 
 /**
  * Default task, running just `gulp` will compile the
  * jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('default-main', ['browser-sync-main', 'watch-main']);
+gulp.task('default-ls', ['browser-sync-ls', 'watch-ls']);

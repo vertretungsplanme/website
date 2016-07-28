@@ -9,15 +9,17 @@ Download
 --------
 
 Hier kannst du die Vertretungsplan-App für dein Android-Smartphone oder -Tablet über den Google Play Store
-herunterladen. Außerdem gibt es eine rudimentäre Version für Windows Phone.
+herunterladen. {% if site.windows_phone_url %} Außerdem gibt es eine rudimentäre Version für Windows Phone. {% endif %}
 
 <a class="btn btn-primary btn-embossed" href="https://play.google.com/store/apps/details?id={{ site.android_packagename }}">
     <img src="{{ '/img/google_play.svg' | prepend: site.baseurl }}"/>
 </a>
 
-<a class="btn btn-primary btn-embossed" href="#">
+{% if site.windows_phone_url %}
+<a class="btn btn-primary btn-embossed" href="{{ site.windows_phone_url }}">
     Windows Phone
     <!--<img src="{{ '/img/google_play.svg' | prepend: site.baseurl }}"/>-->
 </a>
+{% endif %}
 
 <a class="btn btn-primary btn-embossed" href="#">Plakat für Schulen</a>
