@@ -73,7 +73,9 @@ gulp.task('browser-sync', ['less', 'jekyll-build'], function () {
     browserSync({
         server: {
             baseDir: '_site/ls_vertretungsplan_me'
-        }
+        },
+        logLevel: "debug",
+        online: false
     });
 });
 
