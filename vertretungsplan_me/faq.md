@@ -28,6 +28,10 @@ kostenpflichtige Version der App mit zusätzlichen Features geben.
 Normalerweise sind diese Benutzerdaten die gleichen, mit denen man sich beim Online-Vertretungsplan deiner Schule
 einloggt. Wenn du diese nicht kennst, musst du sie bei deiner Schule erfragen.
 
+#### Sind meine Daten sicher?
+Ich nehme den Schutz aller Daten, die in der App anfallen, sehr ernst. Genauere Informationen findest du in der
+[Datenschutzerklärung](/datenschutz).
+
 ### Für Schulen
 
 #### Warum ist unsere Schule in der App enthalten, ohne, dass wir das beantragt haben?

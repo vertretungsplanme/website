@@ -26,3 +26,7 @@ Weitere Informationen dazu findest du unter [vertretungsplan.me](https://vertret
 #### Woher kenne ich Benutzernamen und Passwort für den Lehrervertretungsplan?
 Der Lehrervertretungsplan ist mit Zugangsdaten geschützt, damit er nur von Lehrkräften der Lornsenschule aufgerufen
 werden kann. Die Zugangsdaten entsprechen denen für den im Internet abrufbaren Lehrervertretungsplan.
+
+#### Sind meine Daten sicher?
+Ich nehme den Schutz aller Daten, die in der App anfallen, sehr ernst. Genauere Informationen findest du in der
+[Datenschutzerklärung](/datenschutz).

@@ -1,6 +1,6 @@
 ---
-    layout: default
-    permalink: /datenschutz/
+    layout: plain
+    permalink: /datenschutz_app/
     hide_from_menu: true
     title: Datenschutz
 ---
