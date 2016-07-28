@@ -2,26 +2,17 @@
 layout: default
 title: Unterstützte Schulen
 permalink: /schulen/
+customjs:
+    - https://maps.googleapis.com/maps/api/js?key=AIzaSyB4kIDCgclJ7uNaYmHpXQNiSMqapEEf4LM
+    - /js/schools.js
 ---
 
 <h2>Unterstützte Schulen <span class="label label-primary pull-right" id="schools-counter">...</span></h2>
 
-<!-- Nav tabs -->
-<ul class="nav nav-tabs">
-    <li><a href="#list" data-toggle="tab">Liste</a></li>
-    <li class="active"><a href="#map" data-toggle="tab">Karte</a></li>
-</ul>
+<div id="map_canvas" style="width:100%; height:500px"></div>
 
-<!-- Tab panes -->
-<div class="tab-content">
-    <div class="tab-pane" id="list">
-        <ul class="list-group row" id="supported-schools-list">
-            <li class="list-group-item col-sm-6" id="loading-schools"><span class="fui-time"></span> Laden...</li>
-        </ul>
-        <a class="btn btn-primary" href="mailto:info@vertretungsplan.me"><span class="fui-plus"></span> <b>Füge deine Schule hinzu!</b></a>
-    </div>
-    <div class="tab-pane active" id="map">
-        <div id="map_canvas" style="width:100%; height:500px"></div>
-        <a class="btn btn-primary" href="mailto:info@vertretungsplan.me"><span class="fui-plus"></span> <b>Füge deine Schule hinzu!</b></a>
-    </div>
+<div class="panel-group" id="schools-collapsible" role="tablist" aria-multiselectable="true">
 </div>
+
+<a class="btn btn-primary" href="mailto:{{ site.email }}"><span class="fui-plus"></span>
+    <b>Füge deine Schule hinzu!</b></a>

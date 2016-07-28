@@ -180,7 +180,7 @@ gulp.task('watch-main', function () {
     gulp.watch(['shared/less/**/*.less'], ['less-main']);
     gulp.watch(['./shared/*.html', './shared/*.md',
         './vertretungsplan_me/*.html', './vertretungsplan_me/*.md',
-        './vertretungsplan_me/css/custom.css',
+        './vertretungsplan_me/css/custom.css', './vertretungsplan_me/js/schools.js',
         './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html',
         '_config.yml', 'shared/css/*.css'], ['jekyll-rebuild-main']);
 });
