@@ -19,11 +19,6 @@ html, body {
     color: #fff
 }
 
-.big-mockup {
-    float: right;
-    max-width: 70%
-}
-
 .navbar-brand img {
     height: 100%;
     margin-right: 10px;
@@ -43,13 +38,9 @@ html, body {
     max-width: 250px
 }
 
-@media (max-width: 767px) {
-    .big-mockup {
-        float: none;
-        max-width: 100%
-    }
-}
-
 .navbar-static-top {
     margin-bottom: 0;
+}
+.panel-title .badge {
+    float: right;
 }
