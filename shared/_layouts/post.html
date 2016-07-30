@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<div class="container">
+    <h2>{{ page.title }}</h2>
+    <span class="post-meta">{{ page.date | date: "%d.%m.%Y" }}</span>
+    {{ content }}
+</div>
+
+{% include footer.html %}
+{% include bottom_js.html %}
+
+</body>
+
+</html>
