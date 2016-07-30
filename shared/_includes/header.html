@@ -1,23 +1,31 @@
 <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-<div class="container-fluid">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-    <a class="navbar-brand" href="{{ site.baseurl }}/"><img src='{{ "/img/vertretungsplan_icon.svg" | prepend: site.baseurl }}'>{{ site.title }}</a> </div>
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="{{ site.baseurl }}/"><img
+                    src='{{ "/img/vertretungsplan_icon.svg" | prepend: site.baseurl }}'>{{ site.title }}</a></div>
 
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav" id="main-nav">
-        {% assign sorted_pages = site.pages | sort:"order" %}
-      {% for my_page in sorted_pages %}
-      {% if my_page.title and my_page.hide_from_menu != true %}
-      <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-      {% endif %}
-      {% endfor %}
-      <li><a href="https://twitter.com/{{ site.twitter_username }}"><span class="fa fa-twitter fa-lg"></span></a></li>
-    </ul>
-  </div>
-  <!-- /.navbar-collapse -->
-</div>
-<!-- /.container-fluid -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav" id="main-nav">
+                {% assign sorted_pages = site.pages | sort:"order" %}
+                {% for my_page in sorted_pages %}
+                {% if my_page.title and my_page.hide_from_menu != true %}
+                {% if page.url == my_page.url %}
+                <li class="active"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                {% else %}
+                <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+                <li><a href="https://twitter.com/{{ site.twitter_username }}"><span class="fa fa-twitter fa-lg"></span></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
 </nav>
