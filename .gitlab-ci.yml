@@ -1,4 +1,9 @@
+stages:
+    - build
+    - deploy
+
 build:
+    stage: build
     script:
         - npm install
         - npm install -g gulp
@@ -8,3 +13,9 @@ build:
         paths:
             - _site/ls_vertretungsplan_me
             - _site/vertretungsplan_me
+            
+deploy:
+    stage: deploy
+    only: production
+    script:
+        - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/vertretungsplan_deploy _site/ls_vertretungsplan_me/* tomcat@hamilton.rami.io:usr/share/nginx/www/web/ls/
