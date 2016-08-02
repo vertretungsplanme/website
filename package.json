@@ -11,7 +11,7 @@
     "gulp-replace-path": "^0.4.0",
     "gulp-util": "^3.0.7",
     "less-plugin-autoprefix": "^1.5.1"
-  }
+  },
   "devDependencies": {
     "browser-sync": "^2.13.0",
   }
