@@ -20,6 +20,8 @@ var autoprefix = new LessAutoprefix({ browsers: [
 ] });
 var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
+var imageResize = require('gulp-image-resize');
+var changed = require("gulp-changed");
 
 var walk = function (dir) {
     var results = [];
@@ -89,7 +91,7 @@ var jekyllBuild = function(dir, done) {
 /**
  * Build the Jekyll Site
  */
-gulp.task('jekyll-build-ls', ['less-ls'], function (done) {
+gulp.task('jekyll-build-ls', ['less-ls', 'blog-thumbnails-ls'], function (done) {
     jekyllBuild('ls_vertretungsplan_me', done);
 });
 
@@ -104,7 +106,7 @@ gulp.task('jekyll-rebuild-ls', ['jekyll-build-ls'], function () {
 /**
  * Build the Jekyll Site
  */
-gulp.task('jekyll-build-main', ['less-main'], function (done) {
+gulp.task('jekyll-build-main', ['less-main', 'blog-thumbnails-main'], function (done) {
     jekyllBuild('vertretungsplan_me', done);
 });
 
@@ -113,6 +115,21 @@ gulp.task('jekyll-build-main', ['less-main'], function (done) {
  */
 gulp.task('jekyll-rebuild-main', ['jekyll-build-main'], function () {
     browserSync.reload();
+});
+
+var blogThumbnails = function(dir) {
+    return gulp.src(dir + '/img/blog/**/*.{jpg,png}')
+        //.pipe(changed(dir + '/img/blog-thumbs'))
+        .pipe(imageResize({width: 200, imageMagick: true}))
+        .pipe(gulp.dest(dir + '/img/blog-thumbs'))
+};
+
+gulp.task('blog-thumbnails-ls', function() {
+    return blogThumbnails('ls_vertretungsplan_me')
+});
+
+gulp.task('blog-thumbnails-main', function() {
+    return blogThumbnails('vertretungsplan_me')
 });
 
 /**
