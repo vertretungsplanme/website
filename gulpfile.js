@@ -89,7 +89,7 @@ var jekyllBuild = function(dir, done) {
 /**
  * Build the Jekyll Site
  */
-gulp.task('jekyll-build-ls', function (done) {
+gulp.task('jekyll-build-ls', ['less-ls'], function (done) {
     jekyllBuild('ls_vertretungsplan_me', done);
 });
 
@@ -104,7 +104,7 @@ gulp.task('jekyll-rebuild-ls', ['jekyll-build-ls'], function () {
 /**
  * Build the Jekyll Site
  */
-gulp.task('jekyll-build-main', function (done) {
+gulp.task('jekyll-build-main', ['less-main'], function (done) {
     jekyllBuild('vertretungsplan_me', done);
 });
 
@@ -191,5 +191,5 @@ gulp.task('watch-main', function () {
 gulp.task('default-main', ['browser-sync-main', 'watch-main']);
 gulp.task('default-ls', ['browser-sync-ls', 'watch-ls']);
 
-gulp.task('build-main', ['less-main', 'jekyll-build-main']);
-gulp.task('build-ls', ['less-ls', 'jekyll-build-ls']);
+gulp.task('build-main', ['jekyll-build-main']);
+gulp.task('build-ls', ['jekyll-build-ls']);
