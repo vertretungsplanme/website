@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var cp = require('child_process');
 var del = require('del');
-var vinylPaths = require('vinyl-paths');
 var replace = require('gulp-replace');
 var gutil = require('gulp-util');
 var print = require('gulp-print');
@@ -191,3 +190,6 @@ gulp.task('watch-main', function () {
  */
 gulp.task('default-main', ['browser-sync-main', 'watch-main']);
 gulp.task('default-ls', ['browser-sync-ls', 'watch-ls']);
+
+gulp.task('build-main', ['less-main', 'jekyll-build-main']);
+gulp.task('build-ls', ['less-ls', 'jekyll-build-ls']);
