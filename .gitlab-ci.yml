@@ -1,9 +1,9 @@
 build:
     script:
-		- npm install
-		- gulp build-ls
-		- gulp build-main
+        - npm install
+        - gulp build-ls
+        - gulp build-main
     artifacts:
         paths:
-		    - _site/ls_vertretungsplan_me
-			- _site/vertretungsplan_me
+            - _site/ls_vertretungsplan_me
+            - _site/vertretungsplan_me
