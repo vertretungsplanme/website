@@ -16,6 +16,7 @@ build:
             
 deploy:
     stage: deploy
-    only: production
+    only: 
+        - production
     script:
         - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/vertretungsplan_deploy _site/ls_vertretungsplan_me/* tomcat@hamilton.rami.io:usr/share/nginx/www/web/ls/
