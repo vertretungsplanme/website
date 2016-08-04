@@ -17,8 +17,3 @@ Features
 
 - Wähle **mehrere Klassen** aus und erhalte für alle Benachrichtigungen
 - *Für Lehrer (passwortgeschützt)*: Zeige auch den **Lehrervertretungsplan** an
-
-Screenshots
------------
-
-Hier kommen noch Screenshots hin.
