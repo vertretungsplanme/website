@@ -21,5 +21,3 @@ herunterladen. {% if site.windows_phone_url %} Außerdem gibt es eine rudimentä
     <!--<img src="{{ '/img/google_play.svg' | prepend: site.baseurl }}"/>-->
 </a>
 {% endif %}
-
-<a class="btn btn-primary btn-embossed" href="#">Plakat für Schulen</a>
