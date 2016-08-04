@@ -16,7 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ls.vertretungsplan.me" # the base hostname & protocol for your site
 twitter_username: ls_vplan
 android_packagename: com.johan.vertretungsplan
-windows_phone_url: https://google.de
+windows_phone_url: http://www.windowsphone.com/s?appid=106bf2ea-f1b8-403a-a28e-67a06fee95be
 exclude:
   - node_modules
   - gulpfile.js
