@@ -181,24 +181,24 @@ gulp.task('less-main', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch-ls', function () {
-    gulp.watch(['shared/less/**/*.less'], ['less-ls']);
+    gulp.watch(['./shared/less/**/*.less'], ['less-ls']);
     gulp.watch(['./shared/*.html', './shared/*.md',
         './ls_vertretungsplan_me/*.html', './ls_vertretungsplan_me/*.md', './ls_vertretungsplan_me/_layouts/*.html', './ls_vertretungsplan_me/_posts/*.md',
         './ls_vertretungsplan_me/css/custom.css',
         './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html',
-        '_config.yml', 'shared/css/*.css'], ['jekyll-rebuild-ls']);
+        '_config.yml', 'shared/css/main.css'], ['jekyll-rebuild-ls']);
 });
 
 /**
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch-main', function () {
-    gulp.watch(['shared/less/**/*.less'], ['less-main']);
+    gulp.watch(['./shared/less/**/*.less'], ['less-main']);
     gulp.watch(['./shared/*.html', './shared/*.md',
         './vertretungsplan_me/*.html', './vertretungsplan_me/*.md', './vertretungsplan_me/_layouts/*.html', './vertretungsplan_me/_posts/*.md',
         './vertretungsplan_me/css/custom.css', './vertretungsplan_me/js/schools.js',
         './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html',
-        '_config.yml', 'shared/css/*.css'], ['jekyll-rebuild-main']);
+        '_config.yml', 'shared/css/main.css'], ['jekyll-rebuild-main']);
 });
 
 /**
