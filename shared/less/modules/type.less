@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6,
   font-weight: @headings-font-weight;
   line-height: @headings-line-height;
   color: @headings-color;
+  word-wrap: break-word;
 
   small {
     color: @headings-small-color;
@@ -41,6 +42,24 @@ h3, .h3 { font-size: @font-size-h3; } // ~40px
 h4, .h4 { font-size: @font-size-h4; } // ~29px
 h5, .h5 { font-size: @font-size-h5; } // ~28px
 h6, .h6 { font-size: @font-size-h6; } // ~24px
+
+@media screen and (max-width: 540px) {
+  h1, .h1 { font-size: @font-size-h1 * 0.75; } // ~62px
+  h2, .h2 { font-size: @font-size-h2 * 0.75; } // ~52px
+  h3, .h3 { font-size: @font-size-h3 * 0.75; } // ~40px
+  h4, .h4 { font-size: @font-size-h4 * 0.75; } // ~29px
+  h5, .h5 { font-size: @font-size-h5 * 0.75; } // ~28px
+  h6, .h6 { font-size: @font-size-h6 * 0.75; } // ~24px
+}
+
+@media screen and (max-width: 400px) {
+  h1, .h1 { font-size: @font-size-h1 * 0.6; } // ~62px
+  h2, .h2 { font-size: @font-size-h2 * 0.6; } // ~52px
+  h3, .h3 { font-size: @font-size-h3 * 0.6; } // ~40px
+  h4, .h4 { font-size: @font-size-h4 * 0.6; } // ~29px
+  h5, .h5 { font-size: @font-size-h5 * 0.6; } // ~28px
+  h6, .h6 { font-size: @font-size-h6 * 0.6; } // ~24px
+}
 
 
 // Body text
