@@ -39,6 +39,9 @@ $(function () {
             $("#loading-schools").remove();
             var element = $("#supported-schools-list");
             var markers = [];
+            var infowindow = new google.maps.InfoWindow({
+                content: ''
+            });
             $.each(schools, function (i, item) {
 
                 var latlng = new google.maps.LatLng(item.geo[1], item.geo[0]);
@@ -48,10 +51,8 @@ $(function () {
                     title: item.name + ", " + item.city
                 });
                 markers.push(marker);
-                var infowindow = new google.maps.InfoWindow({
-                    content: item.name + ", " + item.city
-                });
                 google.maps.event.addListener(marker, 'click', function () {
+                    infowindow.setContent(item.name + ", " + item.city);
                     infowindow.open(map, marker);
                 });
                 bounds.extend(latlng);
