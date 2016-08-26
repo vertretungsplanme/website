@@ -43,7 +43,7 @@ nicht wünschen, schreiben Sie mir bite eine Mail, dann wird die Schule möglich
 Am einfachsten ist es für mich, wenn Sie eines der bereits unterstützten Vertretungsplansysteme verwenden. Bisher
 sind dies die folgenden:
 
- - HTML-Exporte aus Stundenplanungs-Software
+  - HTML-Exporte aus Stundenplanungs-Software
      - Untis
         - Info-Stundenplan
         - Monitor-Stundenplan
@@ -51,7 +51,8 @@ sind dies die folgenden:
      - svPlan
      - DaVinci
      - Turbo-Vertretung
-     - Indiware (XML)
+     - [LegionBoard](https://legionboard.github.io/) (direkt via API angebunden)
+     - Indiware (XML-Export)
   - Spezielle Systeme für Online-Vertretungspläne
     - eSchool Web
     - Digitales Schwarzes Brett (nur mit einem der oben genannten HTML-Exporte)
