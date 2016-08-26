@@ -1,5 +1,5 @@
 ---
-title: Neue unterstützte Systeme: LegionBoard und Indiware
+title: Neue unterstützte Systeme - LegionBoard und Indiware
 layout: post
 ---
 
