@@ -45,14 +45,15 @@ sind dies die folgenden:
 
  - HTML-Exporte aus Stundenplanungs-Software
      - Untis
-        - Info-Stundenplan (Beispiel)
-        - Monitor-Stundenplan (Beispiel)
-        - einfache Vertretungsplan-Modul (Beispiel)
-     - svPlan (Beispiel)
-     - DaVinci (Beispiel)
-     - Turbo-Vertretung (Beispiel)
+        - Info-Stundenplan
+        - Monitor-Stundenplan
+        - einfache Vertretungsplan-Modul
+     - svPlan
+     - DaVinci
+     - Turbo-Vertretung
+     - Indiware (XML)
   - Spezielle Systeme für Online-Vertretungspläne
-    - eSchool Web (Beispiel)
+    - eSchool Web
     - Digitales Schwarzes Brett (nur mit einem der oben genannten HTML-Exporte)
         - DSBmobile
         - DSBlight
