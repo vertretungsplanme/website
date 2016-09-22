@@ -1,0 +1,32 @@
+<footer id="footer">
+    <div class="container">
+        <div class="col-md-3">
+            <h3 class="footer-title">Teilen</h3>
+            <div class="shariff" data-backend-url="/shariff/" data-url="{{ site.url }}" data-orientation="vertical"
+                 data-services="[&quot;whatsapp&quot;,&quot;facebook&quot;,&quot;twitter&quot;,&quot;googleplus&quot;,&quot;info&quot;]">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="footer-banner" id="ramiio">
+                <h3 class="footer-title">Ein Projekt von</h3>
+                <a href="https://rami.io/"><img src='{{ "/img/rami-io.svg" | prepend: site.baseurl }}'></a>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="footer-banner">
+                <h3 class="footer-title">Kontakt</h3>
+                <p>Johan von Forstner und Raphael Michel<br>
+                rami.io Softwareentwicklung<br>
+                Heinrich-Fuchs-Straße 120<br>
+                69126 Heidelberg<br>
+                Deutschland<br>
+                    <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                <p><a href="https://twitter.com/{{ site.twitter_username }}"><span
+                        class="fa fa-twitter fa-lg"></span></a> <a
+                        href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></p>
+                <p><a href="https://plus.google.com/u/0/104540041564460311048"><span class="fa fa-google-plus fa-lg">
+                    </span></a> <a href="https://plus.google.com/u/0/104540041564460311048">Google+</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
