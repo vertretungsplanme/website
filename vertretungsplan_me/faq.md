@@ -40,27 +40,8 @@ die gerne den Plan ihrer Schule in der App nutzen würden. Falls Sie als Schulle
 nicht wünschen, schreiben Sie mir bite eine Mail, dann wird die Schule möglichst bald wieder entfernt.
 
 #### Wir würden gerne unsere Schule zur App hinzufügen. Was sind die Voraussetzungen dafür?
-Am einfachsten ist es für mich, wenn Sie eines der bereits unterstützten Vertretungsplansysteme verwenden. Bisher
-sind dies die folgenden:
-
-  - HTML-Exporte aus Stundenplanungs-Software
-     - Untis
-        - Info-Stundenplan
-        - Monitor-Stundenplan
-        - einfache Vertretungsplan-Modul
-     - svPlan
-     - DaVinci
-     - Turbo-Vertretung
-     - [LegionBoard](https://legionboard.github.io/) (direkt via API angebunden)
-     - Indiware (XML-Export)
-  - Spezielle Systeme für Online-Vertretungspläne
-    - eSchool Web
-    - Digitales Schwarzes Brett (nur mit einem der oben genannten HTML-Exporte)
-        - DSBmobile
-        - DSBlight
-    - iServ (nur mit einem der oben genannten HTML-Exporte)
-  - Sonstige Formate
-    - CSV (genauere Spezifikation auf Anfrage)
+Am einfachsten ist es für mich, wenn Sie eines der bereits unterstützten Vertretungsplansysteme verwenden. Diese finden
+Sie auf der Seite [Für Schulen](/fuer-schulen)
 
 Die damit erzeugten Vertretungspläne kann die App in den meisten Fällen automatisch einlesen und anzeigen. Die
 einzige dafür benötigte Information ist häufig eine Liste aller Klassennamen, die auf dem Vertretungsplan auftauchen
@@ -76,8 +57,9 @@ einige inoffizielle Projekte. Außerdem wäre die Implementierung von WebUntis f
 Hersteller von WebUntis explizit verbietet, den Vertretungsplan dort häufig abzufragen, was für die zeitnahen
 Push-Benachrichtigungen, die meine App bietet, nötig ist.
 
-Wenn Sie ein anderes System verwenden, können Sie mich gern kontaktieren. Da die App ein freiwilliges Projekt ist,
-kann ich jedoch nicht garantieren, dass ich Ihre Schule einbinden kann
+Wenn Sie ein anderes System verwenden, können Sie mich gern kontaktieren. Bei Interesse an der
+[Schullizenz](/fuer-schulen/#vertretungsplan-pro--schullizenz) ist eventuell auch eine Integration Ihrer
+Vertretungsplan-Software möglich.
 
 Wenn Sie Programmierkenntnisse in Java haben, können Sie auch versuchen, selbst einen Parser für Ihren
 Vertretungsplan zu programmieren, den ich dann in die der App zugrunde liegende [Open Source-Bibliothek](/open-source/)
@@ -90,4 +72,4 @@ der etwa jede Minute den Vertretungsplan jeder Schule abruft und bei Änderungen
 Push-Nachricht schickt.
 
 #### Dürfen wir in der Schule oder auf unserer Website für die App werben?
-Natürlich! Ich habe dafür ein Plakat vorbereitet, das Sie unter [Download](/download) herunterladen können.
+Natürlich! Kontaktieren Sie mich bitte per E-Mail, falls Sie dafür Werbematerial o.ä. benötigen.
