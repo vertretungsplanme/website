@@ -12,8 +12,6 @@ Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wi
 
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
-
-
 ### Datenschutzerklärung:
 
 #### Datenschutz
@@ -36,3 +34,29 @@ Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihr
 
 
 *Quelle: [e-recht24.de](http://www.e-recht24.de)*
+
+### Haftungshinweise zur App
+Die App wurde mit Sorgfalt programmiert und wird regelmäßig von uns getestet. Trotzdem ist
+aufgrund der hohen Anzahl unterstützter Schulen der Aufwand, jeden möglichen Grenzfall
+zu testen nicht zumutbar. Wir können daher keine Garantie für die Funktionsfähigkeit der App
+geben und können keine Haftung für Schäden übernehmen, die aus der Benutzung der App
+resultieren. Wir können keine Verantwortung übernehmen, wenn Benachrichtigungen
+nicht oder zu spät erscheinen, denn eine Garantie kann hier aus technischen Gründen nicht
+vollständig gegeben werden.
+
+Vollständigkeit, Aktualität und Richtigkeit der in der App angezeigten Daten ist unser höchstes
+Ziel, kann aber nicht garantiert werden, da technische Pannen unvorhersehbar sind. Sobald wir
+davon erfahren, kümmern wir uns zeitnah um Behebung der Probleme. Die Inhalte der App
+(Vertretungsplan, Nachrichten und eventuelle Zusatzinfos) stammen direkt von der Schule und
+wir haben keinen Einfluss auf diese Inhalte, können also auch hier keine Haftung übernehmen.
+
+Bei vielen Schulen wird der Vertretungsplan in der Schule schneller und häufiger aktualisiert
+als der im Internet und damit auch über die App bereitgestellte. Daher ist insbesondere zu 
+beachten, dass in der Regel nur der in der Schule ausgehängte Plan verbindlich gültig ist.
+
+Bitte beachten Sie auch unsere [Datenschutzerklärung](/datenschutz).
+
+### Abschlussbemerkungen
+
+Wenn einzelne der Formulierungen auf dieser Seite nicht mit geltendem Recht konform sind, so bleiben die anderen Teile
+in ihrer Gültigkeit davon unberührt.
