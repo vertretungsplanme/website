@@ -23,7 +23,10 @@ Und bei passwortgeschützten Vertretungsplänen zusätzlich:
 - Die eingegebenen **Zugangsdaten** (Benutzername/-nummer und Passwort) **im Klartext** (z.B. Benutzer: *12345678*,
 Passwort: *deinpasswort*)
 
-Letzteres ist notwendig, damit der Server sich bei der Schule einloggen und den Vertretungsplan abrufen kann.
+Letzteres ist notwendig, damit der Server sich bei der Schule einloggen und den Vertretungsplan abrufen kann. Die
+Zugangsdaten werden nur einmalig im Klartext übertragen, bei nachfolgenden Abrufen des Vertretungsplans nur zur
+Authentifiziertung in einem verschlüsselten Format. Trotz der Klartextübertragung sind die Daten auf dem Weg zum Server
+weiterhin durch die Transportverschlüsselung (HTTPS) geschützt.
 
 ### Google Analytics
 
