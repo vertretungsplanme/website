@@ -19,10 +19,12 @@ Lornsenschule Schleswig für den Vertretungsplan eben dieser Schule programmiert
 andere Schulen einen sehr ähnlichen Vertretungsplan benutzen, habe ich nun eine universelle App für mehrere Schulen
 erstellt.
 
-#### Warum ist die App kostenlos?
-Langfristig muss ich Einnahmen mit der App machen, allein schon, um den Server, auf dem sie läuft, zu
-finanzieren, und natürlich, damit sich die Zeit, die ich darin investiert habe, lohnt. Daher wird es bald eine
-kostenpflichtige Version der App mit zusätzlichen Features geben.
+#### Warum gibt es eine kostenpflichtige Version?
+Die Arbeit an der App kostet mich viel Zeit und auch ein wenig Geld, zum Beispiel für den Server, der die Daten von den
+Schulen abruft. Auch ohne den In-App-Kauf ist die App funktionsfähig, man kann allerdings nur eine Klasse/Schule
+zur Zeit auswählen und Lehrervertretungspläne sind nicht verfügbar. Genauere Informationen zu den Funktionen der beiden
+Versionen gibt es unter [Features](/features). *Bitte prüfe erst, ob deine Schule in der App verfügbar ist, bevor du
+die Pro-Version kaufst.*
 
 #### Woher bekomme den Benutzernamen und das Passwort für meine Schule?
 Normalerweise sind diese Benutzerdaten die gleichen, mit denen man sich beim Online-Vertretungsplan deiner Schule
