@@ -74,3 +74,5 @@ Seit kurzem ist zusätzlich die Version *Vertretungsplan Pro* in Form eines In-A
     </tr>
   </tbody>
 </table>
+
+Mit dem Kauf der Pro-Version bzw. der Schullizenz unterstützt du außerdem die Pflege und Weiterentwicklung der App.
