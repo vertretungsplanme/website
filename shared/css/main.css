@@ -44,3 +44,12 @@ html, body {
 .panel-title .badge {
     float: right;
 }
+
+.gallery {
+    float: right;
+    margin-left: 16px;
+}
+
+h3 {
+    clear: both;
+}
