@@ -3,6 +3,8 @@ layout: default
 title: FAQ
 permalink: /faq/
 order: 3
+customjs:
+    - /js/schools-count.js
 ---
 
 FAQ
@@ -16,8 +18,8 @@ FAQ
 #### Wer hat diese App programmiert und warum?
 Mein Name ist Johan v. Forstner und ich bin Physikstudent. Die erste Version der App habe ich als Schüler der
 Lornsenschule Schleswig für den Vertretungsplan eben dieser Schule programmiert. Da ich bemerkt habe, dass viele
-andere Schulen einen sehr ähnlichen Vertretungsplan benutzen, habe ich nun eine universelle App für mehrere Schulen
-erstellt.
+andere Schulen einen sehr ähnlichen Vertretungsplan benutzen, habe ich nun eine universelle App erstellt, die inzwischen
+<span class="schools-count">...</span> Schulen unterstützt.
 
 #### Warum gibt es eine kostenpflichtige Version?
 Die Arbeit an der App kostet mich viel Zeit und auch ein wenig Geld, zum Beispiel für den Server, der die Daten von den
