@@ -19,7 +19,7 @@ möglich, dass ich Ihre Schule ohne weitere Änderungen auf Ihrer Seite in die A
 
 Im Folgenden finden Sie eine Liste der kompatiblen Vertretungspläne:
 
-  - HTML-Exporte aus Stundenplanungs-Software
+  - HTML-Exporte aus Stundenplanungs-Software (z.B. auf der Schulwebsite, auch mit Passwortschutz durch HTML-Formular oder HTTP Basic Authentication)
      - Untis
         - Info-Stundenplan (nur mit Vertretungsplan-Tabelle, nicht Stundenplan)
         - Monitor-Stundenplan
