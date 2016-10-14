@@ -30,6 +30,7 @@ Im Folgenden finden Sie eine Liste der kompatiblen Vertretungspläne:
      - [LegionBoard](https://legionboard.github.io/) (direkt via API angebunden)
      - Indiware (XML-Export)
   - Spezielle Systeme für Online-Vertretungspläne
+    - WebUntis (experimentell)
     - eSchool Web
     - Digitales Schwarzes Brett (mit einem der oben genannten HTML-Exporte)
         - DSBmobile
