@@ -60,12 +60,12 @@ Seit kurzem ist zusätzlich die Version *Vertretungsplan Pro* in Form eines In-A
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
-      <td style="text-align: right">Farben des Vertretungsplans anpassen</td>
+      <td style="text-align: right">Lehrervertretungspläne anzeigen (für manche Schulen, meist passwortgeschützt)</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
-      <td style="text-align: right">Lehrervertretungspläne anzeigen (für manche Schulen, meist passwortgeschützt)</td>
+      <td style="text-align: right">Farben der Vertretungen und des Widgets anpassen</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
