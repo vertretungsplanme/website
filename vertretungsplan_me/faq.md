@@ -32,6 +32,15 @@ die Pro-Version kaufst.*
 Normalerweise sind diese Benutzerdaten die gleichen, mit denen man sich beim Online-Vertretungsplan deiner Schule
 einloggt. Wenn du diese nicht kennst, musst du sie bei deiner Schule erfragen.
 
+#### Gibt es die App auch für andere Betriebssysteme?
+Im Moment gibt es die App leider nur für **Android**-Smartphones und -Tablets. Eine Version für **iOS** (iPhone, iPad
+und iPod touch) ist geplant und erscheint voraussichtlich im Laufe von 2017. Abhängig von der Nachfrage werde ich nach
+Erscheinen der iOS-Version entscheiden, ob sich auch eine Umsetzung für weitere Systeme wie Windows 10 (Smartphone,
+Tablet und Desktop) oder als Webapp lohnt.
+
+Bis zum Erscheinen der jeweiligen Versionen kann ich leider nur auf die Webseiten der Schulen und die zum Teil
+vorhandenen schuleigenen Apps verweisen. 
+
 #### Sind meine Daten sicher?
 Ich nehme den Schutz aller Daten, die in der App anfallen, sehr ernst. Genauere Informationen findest du in der
 [Datenschutzerklärung](/datenschutz).
