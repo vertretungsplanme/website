@@ -50,6 +50,11 @@ html, body {
     margin-left: 16px;
 }
 
+.gallery-left {
+    float: none;
+    margin-left: 0;
+}
+
 h3 {
     clear: both;
 }
