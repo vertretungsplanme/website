@@ -3,6 +3,7 @@ layout: default
 title: Download
 permalink: /download/
 order: 2
+description: Hier kannst du die Vertretungsplan-App für dein Smartphone oder Tablet herunterladen.
 ---
 
 Download

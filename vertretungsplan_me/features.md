@@ -3,6 +3,7 @@ layout: default
 title: Features
 permalink: /features/
 order: 1
+description: Die Vertretungsplan-App bietet viele nützliche Funktionen. Die Pro-Version enthält noch zusätzliche Vorteile wie die Anzeige von Lehrervertretungsplänen.
 customjs:
     - /js/schools-count.js
 ---

@@ -3,6 +3,7 @@ layout: default
 title: FAQ
 permalink: /faq/
 order: 3
+description: Hier findest du Antworten auf häufig gestellte Fragen zur Vertretungsplan-App.
 customjs:
     - /js/schools-count.js
 ---

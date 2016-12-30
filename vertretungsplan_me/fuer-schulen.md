@@ -2,6 +2,7 @@
 layout: default
 title: Für Schulen
 permalink: /fuer-schulen/
+description: Sie sind Schulleiter oder Lehrer und möchten Ihre Schule in die App aufnehmen lassen? Hier finden Sie weitere Informationen dazu.
 order: 2
 ---
 

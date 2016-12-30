@@ -1,8 +1,9 @@
 ---
-    layout: default
-    title: Open Source
-    permalink: /open-source/
-    order: 4
+layout: default
+title: Open Source
+permalink: /open-source/
+description: Der von der App genutze Code zum Einlesen der Vertretungspläne ist Open Source.
+order: 4
 ---
 
 Open Source
