@@ -6,14 +6,19 @@ description: Die Vertretungsplan-App unterstützt bereits mehr als 250 Schulen. 
 customjs:
     - https://maps.googleapis.com/maps/api/js?key=AIzaSyB4kIDCgclJ7uNaYmHpXQNiSMqapEEf4LM
     - /js/schools.js
+    - /js/schools-count.js
 ---
 
 <h2>Unterstützte Schulen <span class="label label-primary pull-right" id="schools-counter">...</span></h2>
+
+<p>Hier findest du eine Karte und Liste der <span class="schools-count">...</span> unterstützten Schulen. Wenn deine
+Schule noch nicht dabei ist, melde dich einfach mit dem Namen der Schule bei uns per
+<a href="mailto:{{ site.email }}">E-Mail</a>, dann prüfen wir, ob wir sie hinzufügen können.</p>
+
+<p>Sind Sie Schulleiter oder Lehrer und haben Interesse an der Aufnahme Ihrer Schule in die App? Unter
+<a href="/fuer-schulen/">Für Schulen</a> finden Sie weitere Informationen.</p>
 
 <div id="map_canvas" style="width:100%; height:500px"></div>
 
 <div class="panel-group" id="schools-collapsible" role="tablist" aria-multiselectable="true">
 </div>
-
-<a class="btn btn-primary" href="mailto:{{ site.email }}"><span class="fui-plus"></span>
-    <b>Füge deine Schule hinzu!</b></a>
