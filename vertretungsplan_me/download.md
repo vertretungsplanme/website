@@ -12,7 +12,7 @@ Download
 ### Android
 
 Hier kannst du die Vertretungsplan-App für dein Android-Smartphone oder -Tablet über den Google Play Store
-herunterladen.
+herunterladen. Sie funktioniert auf Android-Versionen ab 2.3
 
 <a class="btn btn-primary btn-embossed" href="https://play.google.com/store/apps/details?id={{ site.android_packagename }}">
     <img height="50" src="{{ '/img/google_play.svg' | prepend: site.baseurl }}"/>
@@ -20,8 +20,7 @@ herunterladen.
 
 ### iPhone, iPad, iPod touch
 
-Eine Version der App für Apple-Geräte ist in Arbeit und **wird im Laufe von 2017 erscheinen**. Bei Interesse an einem Test
-der Beta-Version kannst du dich gerne per E-Mail melden. Die App erfordert die aktuelle Betriebssystemversion iOS 10.
+Eine Version der App für Apple-Geräte ist in Arbeit und **wird in Kürze erscheinen**. Die App erfordert die aktuelle Betriebssystemversion iOS 10.
 
 <a class="btn btn-primary btn-embossed disabled">
     <img height="50" src="{{ '/img/apple_app_store.svg' | prepend: site.baseurl }}"/>
