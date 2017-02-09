@@ -6,49 +6,76 @@ description: Sie sind Schulleiter oder Lehrer und möchten Ihre Schule in die Ap
 order: 2
 ---
 
+{::options parse_block_html="true" /}
+
 Für Schulen
 -----------
 
 Sie sind Schulleiter oder Lehrer und möchten Ihre Schule in die App aufnehmen lassen? Hier finden Sie weitere
 Informationen dazu.
 
-### Unterstützte Vertretungspläne
-
 Die App unterstützt bereits eine große Auswahl an unterschiedlichen Arten von Vertretungsplänen. Wenn Sie bereits eine
 spezielle Stundenplanungs-Software verwenden und den Vertretungsplan daraus im Internet bereitstellen, ist es gut
 möglich, dass ich Ihre Schule ohne weitere Änderungen auf Ihrer Seite in die App einfügen kann.
 
-Im Folgenden finden Sie eine Liste der kompatiblen Vertretungspläne:
+<div class="jumbotron jumbotron-normal-font">
 
-  - HTML-Exporte aus Stundenplanungs-Software (z.B. auf der Schulwebsite, auch mit Passwortschutz durch HTML-Formular oder HTTP Basic Authentication)
-     - Untis
-        - Info-Stundenplan (nur mit Vertretungsplan-Tabelle, nicht Stundenplan)
-        - Monitor-Stundenplan
-        - Vertretungsplan
-     - svPlan
-     - DaVinci
-     - Turbo-Vertretung
-     - [LegionBoard](https://legionboard.github.io/) (direkt via API angebunden)
-     - Indiware (XML-Export)
-  - Spezielle Systeme für Online-Vertretungspläne
-    - WebUntis (experimentell)
-    - eSchool Web
-    - Digitales Schwarzes Brett (mit einem der oben genannten HTML-Exporte)
-        - DSBmobile
-        - DSBlight
-    - iServ (mit einem der oben genannten HTML-Exporte)
-    - Moodle (mit einem der oben genannten HTML-Exporte)
-    - stundenplan24.de (Indiware)
-  - Sonstige Formate
-    - CSV (genaue Spezifikation auf Anfrage)
-    
+### Unterstützte Vertretungspläne
+
+Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
+
+<div class="row">
+<div class="col-md-6">
+ - {: .list-group-item} ###### Untis
+    Info-/Monitor-Stundenplan, Vertretungsplan (HTML)\\
+    WebUntis
+ - {: .list-group-item} ###### svPlan
+    HTML-Export
+ - {: .list-group-item} ###### DaVinci
+    HTML-Export
+ - {: .list-group-item} ###### Turbo-Vertretung
+    HTML-Export
+ {: .list-group}
+</div>
+<div class="col-md-6">
+ - {: .list-group-item} ###### [LegionBoard](https://legionboard.github.io/)
+    direkt via API angebunden
+ - {: .list-group-item} ###### Indiware
+    XML-Export, Stundenplan24.de
+ - {: .list-group-item} ###### eSchool Web
+ - {: .list-group-item} ###### CSV
+    z.B. mit Excel erstellbar\\
+    genaue Spezifikation auf Anfrage
+ {: .list-group}
+</div>
+</div>
+
 Wenn Ihr Vertretungsplan kompatibel ist, ist die Aufnahme der Schule für Sie **kostenlos**. Melden Sie sich dazu bitte
 einfach per E-Mail unter [info@vertretungsplan.me](mailto:info@vertretungsplan.me).
 
 Falls Sie eine noch nicht unterstützte Software verwenden und  an der
 [Schullizenz von Vertretungsplan Pro](#vertretungsplan-pro--schullizenz) interessiert sind, können wir versuchen, auch
 diese (eventuell gegen Aufpreis) anzubinden.
-    
+</div>
+
+<div class="jumbotron jumbotron-normal-font jumbotron-dark">
+
+### Passwortschutz
+
+<div class="row">
+<div class="col-sm-2 top-padding">
+![Passwortschutz](/img/icons/lock_outline.svg){:width="70px" .img-responsive .center-block}
+</div>
+<div class="col-sm-10">
+Die oben genannten Vertretungspläne können auch mit Zugangsdaten geschützt sein. Einige Systeme (z.B. WebUntis,
+LegionBoard) bieten dazu eigene Möglichkeiten an. Alternativ kann der Plan aber auch auf der Schulwebsite über
+HTML-Formulare oder HTTP Basic Authentication oder über zusätzliche Systeme wie *DSBmobile, DSBlight, iServ* oder
+*Moodle* geschützt werden. Die Zugangsdaten müssen dann entsprechend in der App eingegeben werden.
+</div>
+</div>
+</div>
+
+<div class="jumbotron jumbotron-normal-font jumbotron-dark-green">
 ### Vertretungsplan Pro – Schullizenz
 
 Mit der Schullizenz unserer kostenpflichtigen Version *Vertretungsplan Pro* können Sie die
@@ -66,3 +93,4 @@ Nach Absprache und eventuell gegen Aufpreis sind noch weitere Zusatzfunktionen m
 Die Schullizenz können Sie gegen einen jährlichen Betrag bei uns bestellen. Der genaue Preis ist u.a. von der
 Schülerzahl abhängig. Melden Sie sich unter [info@vertretungsplan.me](mailto:info@vertretungsplan.me), dann erstellen
 wir Ihnen gern ein individuelles Angebot!
+</div>

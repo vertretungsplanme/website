@@ -58,3 +58,41 @@ html, body {
 h3 {
     clear: both;
 }
+
+.jumbotron-normal-font p {
+    font-size: 18px;
+    font-weight: normal
+}
+
+.list-group-item h6 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.list-group-item h6:last-child {
+    margin-bottom: 15px;
+}
+
+.top-padding {
+    padding-top: 15px;
+}
+
+.paragraph-icon {
+    background: #405b7f;
+    padding: 15px;
+}
+
+.jumbotron-dark {
+    background: #405b7f;
+    color: white;
+}
+
+.jumbotron-dark-green {
+    background: #388E3C;
+    color: white;
+}
+
+.jumbotron-dark-green a {
+    color: #b9c8dc;
+}
