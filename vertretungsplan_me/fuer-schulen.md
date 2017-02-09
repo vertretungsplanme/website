@@ -38,7 +38,7 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
  {: .list-group}
 </div>
 <div class="col-md-6">
- - {: .list-group-item} ###### [LegionBoard](https://legionboard.github.io/)
+ - {: .list-group-item} ###### LegionBoard
     direkt via API angebunden
  - {: .list-group-item} ###### Indiware
     XML-Export, Stundenplan24.de
@@ -93,4 +93,23 @@ Nach Absprache und eventuell gegen Aufpreis sind noch weitere Zusatzfunktionen m
 Die Schullizenz können Sie gegen einen jährlichen Betrag bei uns bestellen. Der genaue Preis ist u.a. von der
 Schülerzahl abhängig. Melden Sie sich unter [info@vertretungsplan.me](mailto:info@vertretungsplan.me), dann erstellen
 wir Ihnen gern ein individuelles Angebot!
+</div>
+
+<div class="jumbotron jumbotron-normal-font jumbotron-legionboard">
+### LegionBoard
+
+<div class="row">
+<div class="col-sm-2 top-padding">
+![LegionBoard Logo](/img/icons/legionboard.svg){:width="90px" .img-responsive .center-block}
+</div>
+<div class="col-sm-10">
+Ihre Schule nutzt bisher noch keine spezielle Software für den Vertretungsplan, sondern erstellt ihn per Hand auf Papier
+oder z.B. in Excel? Vielleicht ist dann LegionBoard eine spannende Alternative für Sie.
+
+LegionBoard ist ein modernes und einfach zu bedienendes System zur Erstellung von Vertretungsplänen. Es ist vollständig
+Open Source und kostenlos, bietet einen passwortgeschützten Zugriff, kann mit wenigen Handgriffen auf Ihrem eigenen
+Server installiert werden und ist vollständig mit den Apps von Vertretungsplan.me kompatibel.
+Weitere Informationen finden Sie unter [legionboard.org](http://legionboard.org).
+</div>
+</div>
 </div>
