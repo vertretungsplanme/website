@@ -96,3 +96,25 @@ h3 {
 .jumbotron-dark-green a {
     color: #b9c8dc;
 }
+
+.circle {
+    border-radius: 50%;
+    background: #405b7f;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 50px;
+    line-height: 120px;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.circle img {
+    margin-top: -10px;
+    width: 60%;
+    height: 60%;
+}

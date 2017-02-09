@@ -19,10 +19,24 @@ Features
 
 Die Vertretungsplan-App bietet unter anderem die folgenden Funktionen: 
 
-- Zeige die Vertretungspläne von **<span class="schools-count">...</span> Schulen** auf deinem Android™-Smartphone oder -Tablet an
-- Wähle deine **Klasse** aus, damit alles, was dich nicht interessiert, ausgeblendet wird
-- Erhalte **Benachrichtigungen** wenige Minuten nach jeder Änderung für deine Klasse
-- Nutze das **Widget** auf deinem Startbildschirm, um alle wichtigen Infos sofort sehen zu können
+<div class="row">
+    <div class="col-sm-3"><div class="tile">
+        <div class="circle"><span class="schools-count">...</span></div>
+        unterstützte Schulen in ganz Deutschland
+    </div></div>
+    <div class="col-sm-3"><div class="tile">
+        <div class="circle"><img src="/img/icons/filter.svg" alt="Icon Filter"></div>
+        nach Klasse oder Lehrer filtern
+    </div></div>
+    <div class="col-sm-3"><div class="tile">
+        <div class="circle"><img src="/img/icons/notifications.svg" alt="Icon Benachrichtigung"></div>
+        Benachrichtigung bei Änderungen
+    </div></div>
+    <div class="col-sm-3"><div class="tile">
+        <div class="circle"><img src="/img/icons/widgets.svg" alt="Icon Widget"></div>
+        Widget auf dem Startbildschirm
+    </div></div>
+</div>
 
 Seit kurzem ist zusätzlich die Version *Vertretungsplan Pro* in Form eines In-App-Kaufs erhältlich, die zusätzliche Features enthält:
 
