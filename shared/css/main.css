@@ -97,6 +97,15 @@ h3 {
     color: #b9c8dc;
 }
 
+.jumbotron-legionboard {
+    background: #e74c3c;
+    color: white;
+}
+
+.jumbotron-legionboard a {
+    color: #b9c8dc;
+}
+
 .circle {
     border-radius: 50%;
     background: #405b7f;
