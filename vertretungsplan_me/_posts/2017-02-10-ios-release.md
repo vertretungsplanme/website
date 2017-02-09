@@ -11,5 +11,5 @@ iOS-App kostenlos nutzbar.
 <a class="btn btn-success btn-lg btn-embossed" role="button" href='{{ "/download/" | prepend: site.baseurl }}'>
                 <span class="fa fa-download"></span>Download</a>
 
-{% assign galleryImages =  "2017-09-02-ios-release/mockup-ios.png" | split: ", "%}
+{% assign galleryImages =  "2017-02-10-ios-release/mockup-ios.png" | split: ", "%}
 {% include gallery_left.html images=galleryImages%}
