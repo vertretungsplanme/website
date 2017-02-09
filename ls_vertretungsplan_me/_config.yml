@@ -10,12 +10,13 @@ title: LS Vertretungsplan
 email: lornsenschule@vertretungsplan.me
 description: >
   Mit der kostenlosen Vertretungsplan-App der Lornsenschule Schleswig kannst du den Vertretungsplan mit
-  Android™-Smartphones und -Tablets komfortabel und mit einem tollen Design abrufen.
+  Android™-Smartphones und -Tablets, iPhones und iPads komfortabel und mit einem tollen Design abrufen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ls.vertretungsplan.me" # the base hostname & protocol for your site
 twitter_username: ls_vplan
 android_packagename: com.johan.vertretungsplan
 windows_phone_url: http://www.windowsphone.com/s?appid=106bf2ea-f1b8-403a-a28e-67a06fee95be
+apple_app_id: 1191463720
 google_analytics_id: UA-39383511-4
 exclude:
   - node_modules

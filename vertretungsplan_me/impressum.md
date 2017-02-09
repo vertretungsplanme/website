@@ -2,7 +2,7 @@
 layout: default
 title: Impressum
 permalink: /impressum/
-order: 5
+order: 6
 ---
 
 Impressum

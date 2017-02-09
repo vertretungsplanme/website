@@ -20,7 +20,7 @@ Als Dank für die schöne Schulzeit an der Lornsenschule pflege ich die App weit
 und Schülern sowie Eltern und Lehrkräften kostenlos im Google Play Store an.
 
 #### Kann ich die App auch für andere Schulen benutzen?
-Nein. Es gibt jedoch eine andere App von mir, die bereits die Vertretungspläne von mehr als 100 Schulen unterstützt.
+Nein. Es gibt jedoch eine andere App von mir, die bereits die Vertretungspläne von mehr als 300 Schulen unterstützt.
 Weitere Informationen dazu findest du unter [vertretungsplan.me](https://vertretungsplan.me).
 
 #### Woher kenne ich Benutzernamen und Passwort für den Lehrervertretungsplan?

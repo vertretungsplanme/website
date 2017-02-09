@@ -2,7 +2,7 @@
 layout: default
 title: FAQ
 permalink: /faq/
-order: 3
+order: 5
 description: Hier findest du Antworten auf häufig gestellte Fragen zur Vertretungsplan-App.
 customjs:
     - /js/schools-count.js
@@ -34,13 +34,11 @@ Normalerweise sind diese Benutzerdaten die gleichen, mit denen man sich beim Onl
 einloggt. Wenn du diese nicht kennst, musst du sie bei deiner Schule erfragen.
 
 #### Gibt es die App auch für andere Betriebssysteme?
-Im Moment gibt es die App leider nur für **Android**-Smartphones und -Tablets. Eine Version für **iOS** (iPhone, iPad
-und iPod touch) ist geplant und erscheint voraussichtlich im Laufe von 2017. Abhängig von der Nachfrage werde ich nach
-Erscheinen der iOS-Version entscheiden, ob sich auch eine Umsetzung für weitere Systeme wie Windows 10 (Smartphone,
-Tablet und Desktop) oder als Webapp lohnt.
+Im Moment gibt es die App für **Android**-Smartphones und -Tablets und seit Februar 2017 auch für **iOS**-Geräte
+(iPhone, iPad und iPod touch).
 
-Bis zum Erscheinen der jeweiligen Versionen kann ich leider nur auf die Webseiten der Schulen und die zum Teil
-vorhandenen schuleigenen Apps verweisen. 
+Eine Umsetzung für weitere Systeme wie Windows 10 (Phone/Tablet/Desktop) oder als Webapp ist möglich, aber noch nicht
+fest geplant.
 
 #### Sind meine Daten sicher?
 Ich nehme den Schutz aller Daten, die in der App anfallen, sehr ernst. Genauere Informationen findest du in der

@@ -10,12 +10,13 @@ title: Vertretungsplan.me
 email: info@vertretungsplan.me
 description: >
   Mit der kostenlosen Vertretungsplan-App kannst du den Vertretungsplan deiner Schule mit
-  Android™-Smartphones und -Tablets komfortabel und mit einem tollen Design abrufen.
+  Android™-Smartphones und -Tablets, iPhones und iPads komfortabel und mit einem tollen Design abrufen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vertretungsplan.me" # the base hostname & protocol for your site
 twitter_username: vplan_app
 facebook_username: vertretungsplanme
 android_packagename: com.johan.vertretungsplan_2
+apple_app_id: 1191463720
 google_analytics_id: UA-39383511-6
 exclude:
   - node_modules
