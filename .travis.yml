@@ -1,0 +1,11 @@
+language: ruby
+sudo: false
+rvm:
+  - 2.3.3
+before_install:
+  - npm install
+  - npm install -g gulp
+install: gem install jekyll
+script:
+  - gulp build-ls
+  - gulp build-main
