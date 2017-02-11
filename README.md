@@ -1,6 +1,8 @@
 Vertretungsplan.me Website
 ==========================
 
+[![Build Status](https://travis-ci.org/vertretungsplanme/website.svg?branch=master)](https://travis-ci.org/vertretungsplanme/website)
+
 This repo contains the source code for the websites [vertretungsplan.me](https://vertretungsplan.me/) and [ls.vertretungsplan.me](https://ls.vertretungsplan.me/).
 
 The website design is based on [Flat UI Free](http://designmodo.github.io/Flat-UI/) by Designmodo, which itself is based on [Twitter Bootstrap](http://getbootstrap.com/) and also uses the following libraries:
