@@ -20,9 +20,10 @@ herunterladen. Sie funktioniert auf Android-Versionen ab 2.3
 
 ### iPhone, iPad, iPod touch
 
-Eine Version der App für Apple-Geräte ist in Arbeit und **wird in Kürze erscheinen**. Die App erfordert die aktuelle Betriebssystemversion iOS 10.
+Hier kannst du die Vertretungsplan-App für dein iPhone, iPad oder iPod touch im App Store herunterladen. Die App
+erfordert die Betriebssystemversion iOS 10 oder höher.
 
-<a class="btn btn-primary btn-embossed disabled">
+<a class="btn btn-primary btn-embossed" href="https://itunes.apple.com/de/app/id{{ site.apple_app_id }}?mt=8">
     <img height="50" src="{{ '/img/apple_app_store.svg' | prepend: site.baseurl }}"/>
 </a>
 

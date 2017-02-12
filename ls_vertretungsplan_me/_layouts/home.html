@@ -9,12 +9,15 @@
 
 <div class="jumbotron fullscreen welcome-page">
     <div class="container">
-        <div class="col-sm-8">
+        <div class="col-sm-4 col-sm-push-4">
             {{ content }}
             <p><a class="btn btn-primary btn-lg btn-embossed" role="button" href='{{ "/features/" | prepend: site.baseurl }}'>
                 <span class="fa fa-info"></span>Mehr Informationen</a></p>
             <p><a class="btn btn-success btn-lg btn-embossed" role="button" href='{{ "/download/" | prepend: site.baseurl }}'>
                 <span class="fa fa-download"></span>Download</a></p>
+        </div>
+        <div class="col-sm-4 col-sm-pull-4">
+            <img style="width: 100%" src="{{ '/img/mockup-ios.png' | prepend: site.baseurl }}"/>
         </div>
         <div class="col-sm-4">
             <img style="width: 100%" src="{{ '/img/mockup.png' | prepend: site.baseurl }}"/>
