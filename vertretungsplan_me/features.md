@@ -80,7 +80,7 @@ Seit kurzem ist zusätzlich die Version *Vertretungsplan Pro* in Form eines In-A
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
-      <td style="text-align: right">Farben der Vertretungen und des Widgets anpassen <i>(nur Android)</i></td>
+      <td style="text-align: right">Farben der Vertretungen und des Widgets anpassen</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
