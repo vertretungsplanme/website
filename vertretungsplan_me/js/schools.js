@@ -51,7 +51,8 @@ $(function () {
                     position: latlng,
                     map: map,
                     title: item.name + ", " + item.city,
-                    icon: item.premium ? greenIcon : redIcon
+                    icon: item.premium ? greenIcon : redIcon,
+                    zIndex: item.premium ? Number.MAX_VALUE : undefined
                 });
                 markers.push(marker);
                 google.maps.event.addListener(marker, 'click', function () {
