@@ -13,11 +13,11 @@ Download
 Hier kannst du die Vertretungsplan-App für dein Android-Smartphone oder -Tablet über den Google Play Store
 herunterladen.
 
-Für Geräte ohne den Google Play Store gibt es die Möglichkeit, die App über F-Droid zu installieren.
-
 <a class="btn btn-primary btn-embossed" href="https://play.google.com/store/apps/details?id={{ site.android_packagename }}">
     <img height="50" src="{{ '/img/google_play.svg' | prepend: site.baseurl }}"/>
 </a>
+
+Für Geräte ohne den Google Play Store gibt es die Möglichkeit, die App über F-Droid zu installieren.
 
 <a class="btn btn-primary btn-embossed" href="https://fdroid.rami.io/">
     F-Droid
