@@ -17,7 +17,8 @@ herunterladen.
     <img height="50" src="{{ '/img/google_play.svg' | prepend: site.baseurl }}"/>
 </a>
 
-Für Geräte ohne den Google Play Store gibt es die Möglichkeit, die App über F-Droid zu installieren.
+Alternativ gibt es die Möglichkeit, die App über F-Droid zu installieren. Dies ist auch auf Geräten ohne den Google 
+Play Store möglich[^1].
 
 <a class="btn btn-primary btn-embossed" href="https://fdroid.rami.io/">
     F-Droid
@@ -40,3 +41,11 @@ Außerdem gibt es eine rudimentäre Version der App für Windows Phone. Diese bi
 <a class="btn btn-primary btn-embossed" href="{{ site.windows_phone_url }}">
     <img height="50" src="{{ '/img/microsoft.svg' | prepend: site.baseurl }}"/>
 </a>
+
+#### Fußnoten
+
+[^1]:
+    Bei Geräten, auf denen auch die
+    [Google-Play-Dienste](https://play.google.com/store/apps/details?id=com.google.android.gms&hl=de) fehlen, 
+    können wir allerdings nicht garantieren, dass die App vollständig funktioniert. Unter anderem sind ohne die 
+    Google-Play-Dienste keine Benachrichtigungen möglich.
