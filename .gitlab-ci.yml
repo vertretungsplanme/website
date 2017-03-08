@@ -13,6 +13,9 @@ build:
         paths:
             - _site/ls_vertretungsplan_me
             - _site/vertretungsplan_me
+    cache:
+        paths:
+        - node_modules/
             
 deploy_hamilton:
     stage: deploy
