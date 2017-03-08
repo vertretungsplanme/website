@@ -14,10 +14,18 @@ build:
             - _site/ls_vertretungsplan_me
             - _site/vertretungsplan_me
             
-deploy:
+deploy_hamilton:
     stage: deploy
     only: 
         - production
     script:
         - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/id_rsa _site/ls_vertretungsplan_me/* tomcat@hamilton.rami.io:/usr/share/nginx/www/web/ls/
         - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/id_rsa _site/vertretungsplan_me/* tomcat@hamilton.rami.io:/usr/share/nginx/www/web/main/
+
+deploy:
+    stage: deploy
+    only:
+        - production
+    script:
+        - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/id_rsa _site/ls_vertretungsplan_me/* gitlab-deploy-web@hamilton.rami.io:/var/www/web/ls/
+        - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/id_rsa _site/vertretungsplan_me/* gitlab-deploy-web@hamilton.rami.io:/var/www/web/main/
