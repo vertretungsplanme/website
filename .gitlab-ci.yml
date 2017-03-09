@@ -16,14 +16,6 @@ build:
     cache:
         paths:
         - node_modules/
-            
-deploy_hamilton:
-    stage: deploy
-    only: 
-        - production
-    script:
-        - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/id_rsa _site/ls_vertretungsplan_me/* tomcat@hamilton.rami.io:/usr/share/nginx/www/web/ls/
-        - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/id_rsa _site/vertretungsplan_me/* tomcat@hamilton.rami.io:/usr/share/nginx/www/web/main/
 
 deploy:
     stage: deploy
