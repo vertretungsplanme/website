@@ -41,7 +41,7 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
  - {: .list-group-item} ###### LegionBoard
     direkt via API angebunden
  - {: .list-group-item} ###### Indiware
-    XML- bzw. HTML-Export
+    XML- bzw. HTML-Export\\
     Stundenplan24.de
  - {: .list-group-item} ###### eSchool Web
  - {: .list-group-item} ###### CSV
