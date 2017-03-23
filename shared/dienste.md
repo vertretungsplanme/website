@@ -16,4 +16,4 @@ Die Vertretungsplan-App kann mit folgenden Diensten verbunden werden:
 
 Mit Alexa kannst du dir die Einträge auf dem Vertretungsplan über deinen Amazon Echo oder andere mit Alexa kompatible
 Geräte vorlesen lassen. Aktiviere einfach den Skill „Vertretungsplan.me“ und sage dann *„Alexa, öffne Vertretungsplan“*.
-Zum Verbinden mit der App benötigst einen Anmeldecode, den du in der App generieren kannst.
+Zum Verbinden mit der App benötigst du einen Anmeldecode, den du in der App generieren kannst.
