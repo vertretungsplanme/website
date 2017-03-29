@@ -87,8 +87,11 @@ Sie damit die kontinuierliche Weiterentwicklung der App.
 Nach Absprache und eventuell gegen Aufpreis sind noch weitere Zusatzfunktionen möglich, wie zum Beispiel:
  
 - Anpassung der App durch Anzeige des Schullogos und/oder eines Fotos der Schule in der Navigationsleiste
+- Anpassung der Farben der App-Oberfläche an die Hausfarbe Ihrer Schule, wenn Ihr Vertretungsplan ausgewählt ist
 - Änderung der standardmäßig zugewiesenen Farben der Vertretungsplan-Einträge
 - Integration der neuesten Nachrichten von der Schulwebsite (z.B. per RSS-Feed)
+- Integration der kommenden Termine von der Schulwebsite (iCal-Feed / Google Kalender)
+- Verlinkung Ihrer Schulwebsite und/oder Ihrem Auftritt in sozialen Netzwerken (Facebook, Twitter, etc.) in der App
 - ...
 
 Die Schullizenz können Sie gegen einen jährlichen Betrag bei uns bestellen. Der genaue Preis ist u.a. von der
