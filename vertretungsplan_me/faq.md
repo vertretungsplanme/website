@@ -64,10 +64,11 @@ Login-Seite auf der Schulwebsite, benötige ich zum Einbinden des Vertretungspla
 Der Vertretungsplan ist dann in der App ebenfalls passwortgeschützt. Auch wenn jeder Schüler ein eigenes
 Benutzerkonto hat, funktioniert das Login in der App damit.
 
-Das WebUntis-System werde ich vorerst nicht unterstützen, denn dafür gibt es bereits eine offizielle App und auch
-einige inoffizielle Projekte. Außerdem wäre die Implementierung von WebUntis für meine App relativ schwierig, da der
-Hersteller von WebUntis explizit verbietet, den Vertretungsplan dort häufig abzufragen, was für die zeitnahen
-Push-Benachrichtigungen, die meine App bietet, nötig ist.
+Das WebUntis-System unterstütze ich ebenfalls, allerdings müssen dort Benutzerkonten eingerichtet sein und zum Login in
+der App verwendet werden. In WebUntis kann zwar auch ein anonymer Zugriff aktiviert werden, der Hersteller
+Gruber&Petters erlaubt es externen Apps jedoch im Moment nicht, diesen Zugang zu nutzen. Bei WebUntis darf ich außerdem
+mit meinem Server den Plan nur alle 10 Minuten abrufen (bei anderen Systemen geschieht das jede Minute). Daher kann es
+passieren, dass die Push-Benachrichtigungen in der App später eintreffen.
 
 Wenn Sie ein anderes System verwenden, können Sie mich gern kontaktieren. Bei Interesse an der
 [Schullizenz](/fuer-schulen/#vertretungsplan-pro--schullizenz) ist eventuell auch eine Integration Ihrer
