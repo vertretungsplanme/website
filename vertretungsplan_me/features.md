@@ -34,7 +34,7 @@ Die Vertretungsplan-App bietet unter anderem die folgenden Funktionen:
     </div></div>
     <div class="col-sm-3"><div class="tile">
         <div class="circle"><img src="/img/icons/widgets.svg" alt="Icon Widget"></div>
-        Widget auf dem Startbildschirm (nur Android)
+        Widget auf dem Startbildschirm
     </div></div>
 </div>
 
@@ -65,9 +65,9 @@ Seit kurzem ist zusätzlich die Version *Vertretungsplan Pro* in Form eines In-A
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
-      <td style="text-align: right">Widget auf dem Startbildschirm <i>(nur Android)</i></td>
-      <td style="text-align: center" class="success"><strong>✓</strong></td>
-      <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: right">Widget auf dem Startbildschirm</td>
+      <td style="text-align: center" class="warning"><i>nur Android</i></td>
+      <td style="text-align: center" class="success"><i>Android + iOS (in Kürze)</i></td>
     </tr>
     <tr>
       <td style="text-align: right">Mehrere Klassen und Schulen gleichzeitig auswählen</td>
