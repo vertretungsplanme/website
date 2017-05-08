@@ -67,7 +67,7 @@ Seit kurzem ist zusätzlich die Version *Vertretungsplan Pro* in Form eines In-A
     <tr>
       <td style="text-align: right">Widget auf dem Startbildschirm</td>
       <td style="text-align: center" class="warning"><i>nur Android</i></td>
-      <td style="text-align: center" class="success"><i>Android + iOS (in Kürze)</i></td>
+      <td style="text-align: center" class="success"><i>Android & iOS</i></td>
     </tr>
     <tr>
       <td style="text-align: right">Mehrere Klassen und Schulen gleichzeitig auswählen</td>
