@@ -28,11 +28,13 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
 <div class="col-md-6">
  - {: .list-group-item} ###### Untis
     Info-/Monitor-Stundenplan, Vertretungsplan (HTML)\\
+    (auch über **DSBmobile** oder **DSBlight**)
+
     WebUntis (direkt via API angebunden)
  - {: .list-group-item} ###### svPlan
     HTML-Export
  - {: .list-group-item} ###### DaVinci
-    HTML-Export
+    HTML-Export (auch über **DSBmobile**)
  - {: .list-group-item} ###### Turbo-Vertretung
     HTML-Export
  {: .list-group}
@@ -41,7 +43,7 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
  - {: .list-group-item} ###### LegionBoard
     direkt via API angebunden
  - {: .list-group-item} ###### Indiware
-    XML- bzw. HTML-Export\\
+    XML- bzw. HTML-Export (auch über **DSBmobile**)\\
     Stundenplan24.de
  - {: .list-group-item} ###### eSchool Web
  - {: .list-group-item} ###### CSV
