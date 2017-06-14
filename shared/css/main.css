@@ -93,8 +93,14 @@ h3 {
     color: white;
 }
 
-.jumbotron-dark-green a {
+.jumbotron-dark-green a, .jumbotron-dark-grey a  {
     color: #b9c8dc;
+}
+
+.jumbotron-dark-grey {
+    background: #455A64;
+    color: white;
+
 }
 
 .jumbotron-legionboard {

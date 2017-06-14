@@ -101,6 +101,29 @@ Schülerzahl abhängig. Melden Sie sich unter [info@vertretungsplan.me](mailto:i
 wir Ihnen gern ein individuelles Angebot!
 </div>
 
+<div class="jumbotron jumbotron-normal-font jumbotron-dark-grey">
+### Monitoranzeige des Vertretungsplans
+
+<div class="row">
+<div class="col-sm-4 top-padding">
+![Monitoranzeige Vorschau](/img/monitor-mockup.png){:width="400px" .img-responsive .center-block}
+</div>
+<div class="col-sm-8">
+Wir arbeiten gerade daran, neben der Anzeige in der App mit einer zusätzlichen Software auch eine Darstellung der
+Vertretungspläne auf Monitoren im Schulgebäude zu ermöglichen. Im Gegensatz zu einer direkten Anzeige der aus ihrer
+Stundenplansoftware exportierten Datei werden die Daten wie in der App in einem modernen, übersichtlichen und leicht
+verständlichen Design angezeigt und Sie können neben dem Vertretungsplan noch zusätzliche Nachrichten einblenden.
+
+Und das Beste daran: Da wir nur die Software bereitstellen, können Sie sich die Hardware (Fernseher/Monitor und Mini-PC)
+selbst aussuchen und somit gegenüber teuren Speziallösungen eine Menge Geld sparen. Als einzige Voraussetzung werden ein
+Internetanschluss und ein Linux-, Windows- oder Mac-Betriebssystem benötigt.
+
+Es ist geplant, die Monitordarstellung als Zusatz zur [Schullizenz](#vertretungsplan-pro--schullizenz) anzubieten. Wenn
+Sie Interesse daran haben, sprechen Sie uns an!
+</div>
+</div>
+</div>
+
 <div class="jumbotron jumbotron-normal-font jumbotron-legionboard">
 ### LegionBoard
 
