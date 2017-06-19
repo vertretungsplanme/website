@@ -63,46 +63,65 @@ $(function () {
             });
             map.fitBounds(bounds);
 
-            var states = [];
+            var countries = [];
             $.each(schools, function (i, item) {
+                var country = null;
+                $.each(countries, function (i, a_country) {
+                    if (a_country.name == item.country) country = a_country;
+                });
+                if (country == null) {
+                    country = {name: item.country, states: []};
+                    countries.push(country);
+                }
+
                 var state = null;
-                $.each(states, function (i, a_state) {
+                $.each(country.states, function (i, a_state) {
                     if (a_state.name == item.state) state = a_state;
                 });
                 if (state == null) {
                     state = {name: item.state, schools: []};
-                    states.push(state);
+                    country.states.push(state);
                 }
                 state.schools.push(item);
             });
-            states.sort(function (a, b) {
+
+            countries.sort(function (a, b) {
                 return a.name.localeCompare(b.name);
             });
-            var i = 0;
-            $.each(states, function (i, state) {
-                var content = "";
-                $.each(state.schools, function (i, school) {
-                    content += '<li class="list-group-item col-sm-6"><b>' + school.city + "</b> " + school.name;
-                    if (school.premium) {
-                        content += ' <i>(Pro-Features kostenlos)</i>'
-                    }
-                    content += "</li>";
+            $.each(countries, function (i, a_country) {
+                a_country.states.sort(function (a, b) {
+                    return a.name.localeCompare(b.name);
                 });
+            });
 
-                $('#schools-collapsible').append('<div class="panel panel-default">\
+            var i = 0;
+            $.each(countries, function(country_index, country) {
+                $('#schools-collapsible').append('<h3>' + country.name + '</h3>')
+                $.each(country.states, function (state_index, state) {
+                    var content = "";
+                    $.each(state.schools, function (i, school) {
+                        content += '<li class="list-group-item col-sm-6"><b>' + school.city + "</b> " + school.name;
+                        if (school.premium) {
+                            content += ' <i>(Pro-Features kostenlos)</i>'
+                        }
+                        content += "</li>";
+                    });
+
+                    $('#schools-collapsible').append('<div class="panel panel-default">\
                     <div class="panel-heading" role="tab">\
                     <h4 class="panel-title">\
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '"\
                      aria-expanded="true" aria-controls="collapseOne">' + state.name +
-                    '</a><span class="badge">' + state.schools.length + '</span>\
+                        '</a><span class="badge">' + state.schools.length + '</span>\
                 </h4>\
                 </div>\
                 <div id="collapse' + i + '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">\
                     <ul class="list-group container-fluid">' + content + '</ul>' +
-                    '</div>\
-                     </div>\
-                     </div>');
-                i++;
+                        '</div>\
+                         </div>\
+                         </div>');
+                    i++;
+                });
             });
         }
     });
