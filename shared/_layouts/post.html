@@ -8,9 +8,13 @@
 {% include header.html %}
 
 <div class="container">
-    <h2>{{ page.title }}</h2>
-    <span class="post-meta">{{ page.date | date: "%d.%m.%Y" }}</span>
-    {{ content }}
+    <article itemscope="" itemtype="http://schema.org/BlogPosting">
+        <h2 itemprop="name">{{ page.title }}</h2>
+        <time class="post-meta" itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
+            {{ page.date | date: "%d.%m.%Y" }}
+        </time>
+        <div itemprop="articleBody">{{ content }}</div>
+    </article>
 </div>
 
 {% include footer.html %}

@@ -7,10 +7,17 @@ description: Hier gibt es Neuigkeiten zur Vertretungsplan-App.
 
 <h2>Blog</h2>
 
+<div itemscope="" itemtype="http://schema.org/Blog">
 {% for post in site.posts %}
-    <h3>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h3>
-    <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
-    {{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Weiterlesen...</a>
+    <article itemscope="" itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+        <h3 itemprop="name">
+            <a class="post-link" itemprop="url" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <time class="post-meta" itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+            {{ post.date | date: "%d.%m.%Y" }}
+        </time>
+        <span itemprop="description">{{ post.excerpt }}</span>
+        <a href="{{ post.url | prepend: site.baseurl }}">Weiterlesen...</a>
+    </article>
 {% endfor %}
+</div>
