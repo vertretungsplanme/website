@@ -22,7 +22,7 @@ Die Vertretungsplan-App bietet unter anderem die folgenden Funktionen:
 <div class="row">
     <div class="col-sm-3"><div class="tile">
         <div class="circle"><span class="schools-count">...</span></div>
-        unterstützte Schulen in ganz Deutschland
+        unterstützte Schulen in Deutschland und Österreich
     </div></div>
     <div class="col-sm-3"><div class="tile">
         <div class="circle"><img src="/img/icons/filter.svg" alt="Icon Filter"></div>
