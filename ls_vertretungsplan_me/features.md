@@ -3,6 +3,7 @@ layout: default
 title: Features
 permalink: /features/
 order: 1
+description: Die Vertretungsplan-App der Lornsenschule Schleswig bietet viele nützliche Funktionen.
 ---
 
 Features

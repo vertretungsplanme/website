@@ -2,7 +2,7 @@ Datenschutzerklärung
 --------------------
 
 Ich nehme den Schutz der Daten, die durch die App anfallen, sehr ernst. Im Folgenden findest du eine Auflistung aller
- erhobenen Daten und ihrem Verwendungszweck.
+ erhobenen Daten und ihren Verwendungszweck.
 
 Damit die App immer aktuelle Daten liefern und bei Änderungen des Vertretungsplans Benachrichtigungen schicken kann,
 läuft auf einem Server ein Programm, das ständig Vertretungspläne abruft und Änderungen erkennen kann. Dieser Server

@@ -3,6 +3,7 @@ layout: default
 title: Impressum
 permalink: /impressum/
 order: 4
+description: Hier finden Sie Kontaktdaten, den Haftungsausschluss und die Datenschutzerklärung.
 ---
 
 Impressum

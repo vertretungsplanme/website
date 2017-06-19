@@ -3,6 +3,7 @@
     permalink: /dienste/
     hide_from_menu: true
     title: Dienste
+    description: Die Vertretungsplan-App kann mit verschiedenen Diensten, z.B. Amazon Alexa, verbunden werden.
 ---
 
 Dienste
