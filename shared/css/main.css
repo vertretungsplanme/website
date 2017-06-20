@@ -34,7 +34,6 @@ html, body {
 }
 
 .headerbox {
-    margin-left: 120px;
     min-height: 100px;
     padding-top: 10px;
     margin-bottom: 15px;
@@ -53,8 +52,25 @@ html, body {
 .headerbox-logo {
     width: 100px;
     height: 100px;
-    vertical-align: middle;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media screen and (max-width: 650px) {
+    .headerbox h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .headerbox-logo {
+        vertical-align: middle;
+        float: left;
+    }
+    .headerbox {
+        margin-left: 120px;
+    }
 }
 
 .welcome-page-image p {
