@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64.1 64.1" style="enable-background:new 0 0 64.1 64.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5576FA;}
+	.st1{opacity:5.000000e-02;clip-path:url(#SVGID_2_);enable-background:new    ;}
+	.st2{fill:#F24236;}
+	.st3{fill:#9B27AF;}
+	.st4{fill:#FDBF07;}
+	.st5{fill:#03A8F2;}
+	.st6{fill:#4BAE4F;}
+</style>
+<path class="st0" d="M63,59c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4c0-2.2,1.8-4,4-4h55c2.2,0,4,1.8,4,4V59z"/>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="63" height="63"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<polyline class="st1" points="64.1,18.8 54,8.8 42,8.8 42,13.1 37.7,8.8 25.7,8.8 25.7,13.7 20.9,8.8 8.8,8.8 8.8,38 13.3,42.4 
+			8.8,42.4 8.8,54 18.7,64.1 62.7,64.1 		"/>
+	</g>
+</g>
+<g id="Your_Icon_4_">
+	<rect x="8.8" y="8.8" class="st2" width="12.1" height="29.2"/>
+	<rect x="42" y="39.5" class="st3" width="12.1" height="14.6"/>
+	<rect x="8.8" y="42.4" class="st4" width="12.1" height="11.7"/>
+	<rect x="25.7" y="8.8" class="st4" width="12.1" height="14.6"/>
+	<rect x="25.7" y="27.8" class="st5" width="12.1" height="26.2"/>
+	<rect x="42" y="8.8" class="st6" width="12.1" height="26.2"/>
+</g>
+</svg>

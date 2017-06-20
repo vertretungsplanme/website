@@ -11,12 +11,84 @@ html, body {
     min-height: 100%
 }
 
+.home-page-part {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
 .welcome-page {
     background-image: -webkit-linear-gradient(top, #338bff 10%, #405b7f 100%);
     background-image: linear-gradient(to bottom, #338bff 10%, #405b7f 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff338bff', endColorstr='#ff405b7f', GradientType=0);
-    color: #fff
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.welcome-page-image {
+    background: #405b7f url("/img/home_bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: left center;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.headerbox {
+    margin-left: 120px;
+    min-height: 100px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.headerbox h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.headerbox .tagline {
+    font-size: 20px;
+}
+
+.headerbox-logo {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    float: left;
+}
+
+.welcome-page-image p {
+    margin-top: 15px;
+}
+
+.secondary-link {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.feature-column {
+    text-align: center;
+    min-height: 475px;
+}
+.feature-column p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.btn-black {
+    background: #000;
+    color: #fff;
+}
+.btn-black.btn-embossed {
+    box-shadow: inset 0 -2px 0 rgba(255,255,255,.3);
+}
+
+.welcome-page-image .btn {
+    margin-right: 15px;
 }
 
 .navbar-brand img {
@@ -114,7 +186,7 @@ h3 {
 
 .circle {
     border-radius: 50%;
-    background: #405b7f;
+    background: #334383;
     width: 120px;
     height: 120px;
     margin-left: auto;

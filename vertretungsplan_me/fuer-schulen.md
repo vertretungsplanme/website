@@ -83,8 +83,8 @@ HTML-Formulare oder HTTP Basic Authentication oder über zusätzliche Systeme wi
 
 Mit der Schullizenz unserer kostenpflichtigen Version *Vertretungsplan Pro* können Sie die
 [zusätzlichen Features](/features), wie zum Beispiel die Anzeige von Lehrervertretungsplänen und die gleichzeitige
-Auswahl mehrerer Klassen, für alle Ihre Schüler, Lehrer und Eltern kostenlos freischalten lassen. Außerdem unterstützen
-Sie damit die kontinuierliche Weiterentwicklung der App. 
+Auswahl mehrerer Klassen, für alle Ihre Schüler/-innen, Lehrer und Eltern kostenlos freischalten lassen. Außerdem
+unterstützen Sie damit die kontinuierliche Weiterentwicklung der App.
 
 Nach Absprache und eventuell gegen Aufpreis sind noch weitere Zusatzfunktionen möglich, wie zum Beispiel:
  

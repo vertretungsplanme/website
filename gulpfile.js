@@ -185,7 +185,7 @@ gulp.task('watch-ls', function () {
     gulp.watch(['./shared/*.html', './shared/*.md',
         './ls_vertretungsplan_me/*.html', './ls_vertretungsplan_me/*.md', './ls_vertretungsplan_me/_layouts/*.html', './ls_vertretungsplan_me/_posts/*.md',
         './ls_vertretungsplan_me/css/custom.css',
-        './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html',
+        './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html', './ls_vertretungsplan_me/_includes/*.html',
         '_config.yml', 'shared/css/main.css'], ['jekyll-rebuild-ls']);
 });
 
@@ -197,7 +197,7 @@ gulp.task('watch-main', function () {
     gulp.watch(['./shared/*.html', './shared/*.md',
         './vertretungsplan_me/*.html', './vertretungsplan_me/*.md', './vertretungsplan_me/_layouts/*.html', './vertretungsplan_me/_posts/*.md',
         './vertretungsplan_me/css/custom.css', './vertretungsplan_me/js/schools.js',
-        './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html',
+        './shared/_layouts/*.html', '_posts/*', './shared/_includes/*.html', './vertretungsplan_me/_includes/*.html',
         '_config.yml', 'shared/css/main.css'], ['jekyll-rebuild-main']);
 });
 
