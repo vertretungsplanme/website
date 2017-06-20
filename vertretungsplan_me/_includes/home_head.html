@@ -1,19 +1,29 @@
-<div class="jumbotron fullscreen welcome-page">
+<div class="jumbotron welcome-page-image">
     <div class="container">
-        <div class="col-sm-4 col-sm-push-4">
-            <h1>Hallo!</h1>
-            <p>Mit der kostenlosen Vertretungsplan-App kannst du den Vertretungsplan deiner Schule mit
-            Android™-Smartphones und -Tablets, iPhones und iPads komfortabel und mit einem tollen Design abrufen. Bei
-                Änderungen für die gewählte Klasse wirst du automatisch benachrichtigt.</p>
-            <p><a class="btn btn-primary btn-lg btn-embossed" role="button" href='{{ "/features/" | prepend: site.baseurl }}'>
-                <span class="fa fa-info"></span>Mehr Informationen</a></p>
-            <p><a class="btn btn-success btn-lg btn-embossed" role="button" href='{{ "/download/" | prepend: site.baseurl }}'>
-                <span class="fa fa-download"></span>Download</a></p>
+        <div class="col-md-8 col-sm-10">
+            <img src="/img/vertretungsplan_icon_color.svg" class="headerbox-logo"/>
+            <div class="headerbox">
+                <h1>Vertretungsplan.me</h1>
+                <span class="tagline">So geht Vertretungsplan heute</span>
+            </div>
+
+            <p>Mit unserer kostenlosen App kannst du den Vertretungsplan deiner Schule mit deinem Smartphone oder Tablet
+                komfortabel und mit einem tollen Design abrufen. Bei Änderungen für die gewählte Klasse oder den
+                gewählten Lehrer wirst du automatisch benachrichtigt.</p>
+
+            <a class="btn btn-primary btn-embossed" href="https://play.google.com/store/apps/details?id={{ site.android_packagename }}">
+                <img height="50" src="{{ '/img/google_play.svg' | prepend: site.baseurl }}"/>
+            </a>
+            <a class="btn btn-primary btn-embossed" href="https://itunes.apple.com/de/app/id{{ site.apple_app_id }}?mt=8">
+                <img height="50" src="{{ '/img/apple_app_store.svg' | prepend: site.baseurl }}"/>
+            </a>
+
+            <p><a class="secondary-link" href='{{ "/download/" | prepend: site.baseurl }}'>Weitere Download-Möglichkeiten</a></p>
         </div>
-        <div class="col-sm-4 col-sm-pull-4">
+        <!--<div class="col-md-4 col-md-pull-4 hidden-xs hidden-sm">
             <img style="width: 100%" src="{{ '/img/mockup-ios.png' | prepend: site.baseurl }}" srcset="{{ '/img/mockup-ios@2x.png' | prepend: site.baseurl }} 2x"/>
-        </div>
-        <div class="col-sm-4">
+        </div>-->
+        <div class="col-md-4 hidden-xs hidden-sm">
             <img style="width: 100%" src="{{ '/img/mockup.png' | prepend: site.baseurl }}" srcset="{{ '/img/mockup@2x.png' | prepend: site.baseurl }} 2x"/>
         </div>
     </div>
