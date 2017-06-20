@@ -79,6 +79,18 @@ html, body {
     font-weight: normal;
 }
 
+.btn-black {
+    background: #000;
+    color: #fff;
+}
+.btn-black.btn-embossed {
+    box-shadow: inset 0 -2px 0 rgba(255,255,255,.3);
+}
+
+.welcome-page-image .btn {
+    margin-right: 15px;
+}
+
 .navbar-brand img {
     height: 100%;
     margin-right: 10px;
@@ -174,7 +186,7 @@ h3 {
 
 .circle {
     border-radius: 50%;
-    background: #405b7f;
+    background: #334383;
     width: 120px;
     height: 120px;
     margin-left: auto;
