@@ -1,0 +1,57 @@
+<div class="container home-page-part">
+    <div class="col-md-6">
+        <blockquote id="review1">
+        </blockquote>
+    </div>
+    <div class="col-md-6 hidden-sm hidden-xs">
+        <blockquote id="review2">
+        </blockquote>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var reviews = [
+        {
+            text: "Mit Abstand die beste Vertretungsplan-App im Play Store! Sehr viele sehr nützliche Funktionen, wie zum Beispiel die Auswahl von angezeigten Fächern/Kursen. Die App macht den Vertretungsplan um ein vielfaches übersichtlicher! Danke! :)",
+            author: "Andreas V., Google Play Store"
+        },
+        {
+            text: "Finds super 👍 man ist immer auf dem neuesten Stand. Wird auch immer richtig angezeigt. Alles super",
+            author: "Antonia B., Google Play Store"
+        },
+        {
+            text: "Die nützlichste App auf meinem Handy! Innerhalb von Sekunden sehe ich ob etwas entfällt oder nicht. Die 5 Sterne sind echt verdient. Grüße an den Entwickler. Tolle Leistung :))",
+            author: "Nightmare, Google Play Store"
+        },
+        {
+            text: "Es ist echt eine super Klasse App die einem echt hilft. Ich kann sie echt nur jedem empfehlen.",
+            author: "Julius H., Google Play Store"
+        },
+        {
+            text: "Super , bin positiv überrascht!! Tolle App, weiter so 💪",
+            author: "Adelisa H., Google Play Store"
+        },
+        {
+            text: "Funktioniert sehr zuverlässig, durchdachte Funktionen und für viele Schulen einsetzbar.",
+            author: "i601, App Store"
+        },
+        {
+            text: "Die App ist übersichtlich gestaltet und auch optisch ansprechend.",
+            author: "Dfggvrtfdhh, App Store"
+        }
+    ];
+
+    function getRandomReview() {
+        const index = Math.floor(Math.random() * reviews.length);
+        var review = reviews[index];
+        reviews.splice(index, 1);
+        return review;
+    }
+
+    var review1 = getRandomReview();
+    document.getElementById("review1").innerHTML = "<p>" + review1.text + "<p><footer>" + review1.author + "</footer>";
+
+    var review2 = getRandomReview();
+    document.getElementById("review2").innerHTML = "<p>" + review2.text + "<p><footer>" + review2.author + "</footer>";
+
+</script>
