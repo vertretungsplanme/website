@@ -44,7 +44,8 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
     direkt via API angebunden
  - {: .list-group-item} ###### Indiware
     XML- bzw. HTML-Export (auch über **DSBmobile**)\\
-    Stundenplan24.de
+    Stundenplan24.de\\
+    Indiware Mobil
  - {: .list-group-item} ###### eSchool Web
  - {: .list-group-item} ###### CSV
     z.B. mit Excel erstellbar\\
