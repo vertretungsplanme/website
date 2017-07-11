@@ -85,7 +85,7 @@ HTML-Formulare oder HTTP Basic Authentication oder über zusätzliche Systeme wi
 
 Mit der Schullizenz unserer kostenpflichtigen Version *Vertretungsplan Pro* können Sie die
 [zusätzlichen Features](/features), wie zum Beispiel die Anzeige von Lehrervertretungsplänen und die gleichzeitige
-Auswahl mehrerer Klassen, für alle Ihre Schüler/-innen, Lehrer und Eltern kostenlos freischalten lassen. Außerdem
+Auswahl mehrerer Klassen, für alle Ihre Schüler/-innen, Lehrkräfte und Eltern kostenlos freischalten lassen. Außerdem
 unterstützen Sie damit die kontinuierliche Weiterentwicklung der App.
 
 Nach Absprache und eventuell gegen Aufpreis sind noch weitere Zusatzfunktionen möglich, wie zum Beispiel:
@@ -114,11 +114,11 @@ wir Ihnen gern ein individuelles Angebot!
 Wir arbeiten gerade daran, neben der Anzeige in der App mit einer zusätzlichen Software auch eine Darstellung der
 Vertretungspläne auf Monitoren im Schulgebäude zu ermöglichen. Im Gegensatz zu einer direkten Anzeige der aus ihrer
 Stundenplansoftware exportierten Datei werden die Daten wie in der App in einem modernen, übersichtlichen und leicht
-verständlichen Design angezeigt und Sie können neben dem Vertretungsplan noch zusätzliche Nachrichten einblenden.
+verständlichen Design angezeigt.
 
 Und das Beste daran: Da wir nur die Software bereitstellen, können Sie sich die Hardware (Fernseher/Monitor und Mini-PC)
 selbst aussuchen und somit gegenüber teuren Speziallösungen eine Menge Geld sparen. Als einzige Voraussetzung werden ein
-Internetanschluss und ein Linux-, Windows- oder Mac-Betriebssystem benötigt.
+Internetanschluss und ein aktueller Webbrowser benötigt.
 
 Es ist geplant, die Monitordarstellung als Zusatz zur [Schullizenz](#vertretungsplan-pro--schullizenz) anzubieten. Wenn
 Sie Interesse daran haben, sprechen Sie uns an!
