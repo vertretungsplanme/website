@@ -95,6 +95,7 @@ Nach Absprache und eventuell gegen Aufpreis sind noch weitere Zusatzfunktionen m
 - Änderung der standardmäßig zugewiesenen Farben der Vertretungsplan-Einträge
 - Integration der neuesten Nachrichten von der Schulwebsite (z.B. per RSS-Feed)
 - Integration der kommenden Termine von der Schulwebsite (iCal-Feed / Google Kalender)
+- Versand von Textnachrichten als Push-Benachrichtigung an alle App-Nutzer an ihrer Schule über eine Weboberfläche
 - Verlinkung Ihrer Schulwebsite und/oder Ihrem Auftritt in sozialen Netzwerken (Facebook, Twitter, etc.) in der App
 - ...
 
@@ -111,17 +112,20 @@ wir Ihnen gern ein individuelles Angebot!
 ![Monitoranzeige Vorschau](/img/monitor-mockup.png){:width="400px" .img-responsive .center-block}
 </div>
 <div class="col-sm-8">
-Wir arbeiten gerade daran, neben der Anzeige in der App mit einer zusätzlichen Software auch eine Darstellung der
-Vertretungspläne auf Monitoren im Schulgebäude zu ermöglichen. Im Gegensatz zu einer direkten Anzeige der aus ihrer
-Stundenplansoftware exportierten Datei werden die Daten wie in der App in einem modernen, übersichtlichen und leicht
-verständlichen Design angezeigt.
+Neben der Anzeige in der App bieten wir ab dem Schuljahr 2017/18 auch eine zusätzliche Software zur Darstellung
+der Vertretungspläne auf Monitoren im Schulgebäude an. Im Gegensatz zu einer direkten Anzeige der aus ihrer
+Stundenplansoftware exportierten Datei werden die Daten hiermit wie in der App in einem modernen, übersichtlichen und 
+leicht verständlichen Design angezeigt.
+
+Auf den Monitoren können sowohl Schüler- als auch Lehrerpläne angezeigt werden. Bei den Schülerplänen ist es auch 
+möglich, nach Klassen zu filtern, um z.B. die Klassen verschiedener Stufen auf mehrere Monitore aufzuteilen.
 
 Und das Beste daran: Da wir nur die Software bereitstellen, können Sie sich die Hardware (Fernseher/Monitor und Mini-PC)
 selbst aussuchen und somit gegenüber teuren Speziallösungen eine Menge Geld sparen. Als einzige Voraussetzung werden ein
 Internetanschluss und ein aktueller Webbrowser benötigt.
 
-Es ist geplant, die Monitordarstellung als Zusatz zur [Schullizenz](#vertretungsplan-pro--schullizenz) anzubieten. Wenn
-Sie Interesse daran haben, sprechen Sie uns an!
+Die Monitordarstellung wird als Zusatz zur [Schullizenz](#vertretungsplan-pro--schullizenz) angeboten. Wenn Sie 
+Interesse daran haben, sprechen Sie uns an!
 </div>
 </div>
 </div>
