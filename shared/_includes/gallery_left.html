@@ -1,6 +1,6 @@
 <div class="gallery gallery-left" itemscope itemtype="http://schema.org/ImageGallery">
     {% for image in include.images %}
-        <a href="/img/blog/{{image}}" itemprop="contentUrl" data-size="1080x1920">
+        <a href="/img/blog/{{image}}" itemprop="contentUrl" data-size="{{ include.resolution | default: '1080x1920'}}">
             <img src="/img/blog-thumbs/{{image}}" itemprop="thumbnail" alt="" />
         </a>
     {% endfor %}
