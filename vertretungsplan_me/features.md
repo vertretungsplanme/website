@@ -38,7 +38,7 @@ Die Vertretungsplan-App bietet unter anderem die folgenden Funktionen:
     </div></div>
 </div>
 
-Seit kurzem ist zusätzlich die Version *Vertretungsplan Pro* in Form eines In-App-Kaufs erhältlich, die zusätzliche Features enthält:
+Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, und enthält zusätzliche Features:
 
 <table class="table">
   <thead>
@@ -76,6 +76,11 @@ Seit kurzem ist zusätzlich die Version *Vertretungsplan Pro* in Form eines In-A
     </tr>
     <tr>
       <td style="text-align: right">Lehrervertretungspläne anzeigen (für manche Schulen, meist passwortgeschützt)</td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Integration mit <a href="/dienste/">Amazon Alexa</a></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
