@@ -112,7 +112,7 @@ wir Ihnen gern ein individuelles Angebot!
 ![Monitoranzeige Vorschau](/img/monitor-mockup.png){:width="400px" .img-responsive .center-block}
 </div>
 <div class="col-sm-8">
-Neben der Anzeige in der App bieten wir ab dem Schuljahr 2017/18 auch eine zusätzliche Software zur Darstellung
+Neben der Anzeige in der App bieten wir neuerdings auch eine zusätzliche Software zur Darstellung
 der Vertretungspläne auf Monitoren im Schulgebäude an. Im Gegensatz zu einer direkten Anzeige der aus ihrer
 Stundenplansoftware exportierten Datei werden die Daten hiermit wie in der App in einem modernen, übersichtlichen und 
 leicht verständlichen Design angezeigt.
