@@ -24,7 +24,8 @@ $(function () {
     var mapOptions = {
         mapTypeControl: false,
         streetViewControl: false,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        gestureHandling: 'greedy'
     };
     var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
     var bounds = new google.maps.LatLngBounds();
