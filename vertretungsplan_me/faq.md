@@ -71,9 +71,10 @@ E-Mail.
 ### Für Schulen
 
 #### Warum ist unsere Schule in der App enthalten, ohne, dass wir das beantragt haben?
-Für die Vertretungsplan-App nehmen wir nicht nur Anfragen von Schulen, sondern auch von Schülern und Eltern entgegen,
-die gerne den Plan ihrer Schule in der App nutzen würden. Falls Sie als Schulleitung der betreffenden Schule das
-nicht wünschen, schreiben Sie mir bitte eine Mail, dann wird die Schule möglichst bald wieder entfernt.
+Für die Vertretungsplan-App haben wir in der Vergangenheit nicht nur Anfragen von Schulen, sondern auch von Schülern und
+Eltern entgegengenommen, die gerne den Plan ihrer Schule in der App nutzen würden. Falls Sie als Schulleitung der
+betreffenden Schule das nicht wünschen, schreiben Sie mir bitte eine Mail, dann wird die Schule möglichst bald wieder
+entfernt.
 
 #### Wir würden gerne unsere Schule zur App hinzufügen. Was sind die Voraussetzungen dafür?
 Am einfachsten ist es für uns, wenn Sie eines der bereits unterstützten Vertretungsplansysteme verwenden. Diese finden
