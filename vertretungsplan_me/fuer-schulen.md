@@ -27,14 +27,13 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
 <div class="row">
 <div class="col-md-6">
  - {: .list-group-item} ###### Untis
-    Info-/Monitor-Stundenplan, Vertretungsplan (HTML)\\
-    (auch über **DSBmobile** oder **DSBlight**)
+    Info-/Monitor-Stundenplan, Vertretungsplan (HTML)
 
     WebUntis (direkt via API angebunden)
  - {: .list-group-item} ###### svPlan
     HTML-Export
  - {: .list-group-item} ###### DaVinci
-    HTML-Export (auch über **DSBmobile**)
+    HTML-Export
  - {: .list-group-item} ###### Turbo-Vertretung
     HTML-Export
  {: .list-group}
@@ -43,7 +42,7 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
  - {: .list-group-item} ###### LegionBoard
     direkt via API angebunden
  - {: .list-group-item} ###### Indiware
-    XML- bzw. HTML-Export (auch über **DSBmobile**)\\
+    XML- bzw. HTML-Export\\
     Stundenplan24.de\\
     Indiware Mobil
  - {: .list-group-item} ###### SchoolJoomla
@@ -74,7 +73,7 @@ diese (eventuell gegen Aufpreis) anzubinden.
 <div class="col-sm-10">
 Die oben genannten Vertretungspläne können auch mit Zugangsdaten geschützt sein. Einige Systeme (z.B. WebUntis,
 LegionBoard) bieten dazu eigene Möglichkeiten an. Alternativ kann der Plan aber auch auf der Schulwebsite über
-HTML-Formulare oder HTTP Basic Authentication oder über zusätzliche Systeme wie *DSBmobile, DSBlight, iServ* oder
+HTML-Formulare oder HTTP Basic Authentication oder über zusätzliche Systeme wie *iServ* oder
 *Moodle* geschützt werden. Die Zugangsdaten müssen dann entsprechend in der App eingegeben werden.
 </div>
 </div>
