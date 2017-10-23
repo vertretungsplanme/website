@@ -15,6 +15,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vertretungsplan.me" # the base hostname & protocol for your site
 twitter_username: vplan_app
 facebook_username: vertretungsplanme
+instagram_username: vplan_app
 android_packagename: com.johan.vertretungsplan_2
 apple_app_id: 1191463720
 google_analytics_id: UA-39383511-6
