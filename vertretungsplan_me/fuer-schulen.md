@@ -24,29 +24,34 @@ möglich, dass ich Ihre Schule ohne weitere Änderungen auf Ihrer Seite in die A
 
 Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
 
-<div class="row">
+<div class="row software-list">
 <div class="col-md-6">
+ - {: .list-group-item .list-group-item-davinci} ###### ![DAVINCI](/img/icons/davinci.svg)
+    DAVINCI Infoserver (direkt via API angebunden)\\
+    alternativ: HTML-Export\\
+    [mehr Informationen](https://davinci.stueber.de/davinci-infoserver.php)
  - {: .list-group-item} ###### Untis
-    Info-/Monitor-Stundenplan, Vertretungsplan (HTML)
-
+    Info-/Monitor-Stundenplan, Vertretungsplan (HTML),
     WebUntis (direkt via API angebunden)
  - {: .list-group-item} ###### svPlan
     HTML-Export
- - {: .list-group-item} ###### DaVinci
-    HTML-Export
  - {: .list-group-item} ###### Turbo-Vertretung
     HTML-Export
+ - {: .list-group-item} ###### eSchool Web
  {: .list-group}
 </div>
 <div class="col-md-6">
- - {: .list-group-item} ###### LegionBoard
-    direkt via API angebunden
+ - {: .list-group-item .list-group-item-iphis} ###### ![IPHIS](/img/icons/iphis.svg)
+    direkt via API angebunden\\
+    [mehr Informationen](https://www.tk-schulsoftware.de/iphis/vertretung-klassenbuch/)
+ - {: .list-group-item .list-group-item-legionboard} ###### ![LegionBoard](/img/icons/legionboard-with-text.svg)
+    direkt via API angebunden\\
+    [mehr Informationen](https://legionboard.org/index_de.html)
  - {: .list-group-item} ###### Indiware
     XML- bzw. HTML-Export\\
     Stundenplan24.de\\
     Indiware Mobil
  - {: .list-group-item} ###### SchoolJoomla
- - {: .list-group-item} ###### eSchool Web
  - {: .list-group-item} ###### CSV
     z.B. mit Excel erstellbar\\
     genaue Spezifikation auf Anfrage

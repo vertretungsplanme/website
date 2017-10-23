@@ -200,6 +200,49 @@ h3 {
     color: #b9c8dc;
 }
 
+.software-list .list-group-item-legionboard {
+    background: #272833;
+    color: white;
+}
+
+.software-list .list-group-item h6 img {
+    height: 30px;
+}
+
+.software-list .list-group-item-legionboard h6 img {
+    height: 35px;
+}
+
+.software-list .list-group-item-davinci {
+    background: #2196f3;
+    color: white;
+}
+
+.software-list .list-group-item-iphis {
+    background: #aa1218;
+    color: white;
+}
+
+.software-list .list-group-item-davinci a,
+.software-list .list-group-item-legionboard a,
+.software-list .list-group-item-iphis a {
+    color: #fff;
+}
+
+.software-list .list-group-item-davinci a:before,
+.software-list .list-group-item-legionboard a:before,
+.software-list .list-group-item-iphis a:before {
+    content: "\f061";
+    font-family: FontAwesome;
+    margin-right: 8px;
+}
+
+.software-list .list-group-item-davinci a:hover,
+.software-list .list-group-item-legionboard a:hover,
+.software-list .list-group-item-iphis a:hover {
+    color: #bbb;
+}
+
 .circle {
     border-radius: 50%;
     background: #334383;
