@@ -70,6 +70,11 @@ Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, un
       <td style="text-align: center" class="success"><i>Android & iOS</i></td>
     </tr>
     <tr>
+          <td style="text-align: right">Stellenanzeigen von <a href="https://schuelerkarriere.de">Schülerkarriere</a></td>
+          <td style="text-align: center" class=info"><i>immer aktiv</i></td>
+          <td style="text-align: center" class="success"><i>optional</i></td>
+        </tr>
+    <tr>
       <td style="text-align: right">Mehrere Klassen und Schulen gleichzeitig auswählen</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
