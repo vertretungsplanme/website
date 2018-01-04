@@ -9,14 +9,16 @@
 Dienste
 -------
 
-Die Vertretungsplan-App kann mit folgenden Drittanbieter-Diensten verbunden werden:
+Die Vertretungsplan-App kann in der [Pro-Version](/features/) (oder, wenn deine Schule eine Schullizenz gekauft hat)
+mit folgenden Drittanbieter-Diensten verbunden werden:
 
 ### Google Assistant
 
-<a href="https://www.amazon.de/dp/B06XSXV3C5"><img height="65" src="{{ '/img/alexa.svg' | prepend: site.baseurl }}"/></a>
+<a href="https://assistant.google.com/services/a/id/6a748edf7285e379?hl=de"><img height="65" src="{{ '/img/google_assistant.svg' | prepend: site.baseurl }}"/></a>
 
 Mit Google Asssistant kannst du dir die Einträge auf dem Vertretungsplan über deinen Google Home oder kompatible Android- und iOS-Geräte
-Geräte vorlesen lassen. Sage einfach *„Okay Google, mit Vertretungsplan.me sprechen“*. Zum Verbinden mit der App benötigst du einen Anmeldecode, den du in den Einstellungen der App generieren kannst.
+Geräte vorlesen lassen. Sage einfach [*„Okay Google, mit Vertretungsplan.me sprechen“*](https://assistant.google.com/services/a/id/6a748edf7285e379?hl=de).
+Zum Verbinden mit der App benötigst du einen Anmeldecode, den du in den Einstellungen der App generieren kannst.
 
 ### Amazon Alexa
 

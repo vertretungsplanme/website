@@ -85,7 +85,7 @@ Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, un
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
-      <td style="text-align: right">Integration mit <a href="/dienste/">Amazon Alexa</a></td>
+      <td style="text-align: right">Integration mit <a href="/dienste/">Google Assistant und Amazon Alexa</a></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
