@@ -9,9 +9,8 @@ welche spannenden neuen Funktionen wir für das nächste Schuljahr vorbereitet h
 
 ### Ansicht „Alle Pläne“
 
-In den letzten Wochen haben wir Updates für die iOS- und Android-App veröffentlicht, die für die Nutzer der
-Pro-Version (entweder durch den In-App-Kauf oder die Schullizenz) eine neue Funktion beinhalten: Sofern mehrere nach
-unterschiedlichen Klassen oder Lehrern gefilterte Pläne ausgewählt sind, können diese nicht nur getrennt voneinander,
+In den letzten Wochen haben wir Updates für die iOS- und Android-App veröffentlicht, die eine neue Funktion beinhalten:
+Sofern mehrere nach unterschiedlichen Klassen oder Lehrern gefilterte Pläne ausgewählt sind, können diese nicht nur getrennt voneinander,
  sondern mit der neuen Option *Alle Pläne* auch gleichzeitig angezeigt werden. Damit hat man einen noch besseren
  Überblick über mehrere ausgewählte Pläne.
 
