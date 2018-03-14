@@ -66,6 +66,8 @@ $(function () {
 
             var countries = [];
             $.each(schools, function (i, item) {
+                if (item.country === "Demo-Schulen") return;
+
                 var country = null;
                 $.each(countries, function (i, a_country) {
                     if (a_country.name == item.country) country = a_country;
