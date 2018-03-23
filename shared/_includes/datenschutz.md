@@ -1,13 +1,13 @@
 Datenschutzerklärung
 --------------------
 
-Ich nehme den Schutz der Daten, die durch die App anfallen, sehr ernst. Im Folgenden findest du eine Auflistung aller
+Wir nehmen den Schutz der Daten, die durch die App anfallen, sehr ernst. Im Folgenden findest du eine Auflistung aller
  erhobenen Daten und ihren Verwendungszweck.
 
 Damit die App immer aktuelle Daten liefern und bei Änderungen des Vertretungsplans Benachrichtigungen schicken kann,
 läuft auf einem Server ein Programm, das ständig Vertretungspläne abruft und Änderungen erkennen kann. Dieser Server
 steht **in Deutschland** und die Verbindung der App zum Server läuft **verschlüsselt** ab (HTTPS). Damit die
-Benachrichtigungen funktionieren, muss ich folgende Daten auf dem Server speichern:
+Benachrichtigungen funktionieren, müssen wir folgende Daten auf dem Server speichern:
 
 - Den ausgewählten **Vertretungsplan** und gegebenenfalls **Klasse bzw. Lehrer** (z.B. *Lornsenschule Schleswig,
 Schülervertretungsplan, Klasse 5a*) sowie in der App ausgewählte Fächer, die von Benachrichtigungen ausgeschlossen
@@ -30,7 +30,7 @@ Server weiterhin durch die Transportverschlüsselung (HTTPS) geschützt.
 
 ### Google Analytics
 
-Zur Analyse und Optimierung der App verwende ich Google Analytics, eine Software von Google Inc. ("Google") zur
+Zur Analyse und Optimierung der App verwenden wir Google Analytics, eine Software von Google Inc. ("Google") zur
 statistischen Auswertung der Benutzerzugriffe. Dazu werden bei der Nutzung der App **anonyme Daten zur Nutzung der App**
 gesammelt, an einen Server von Google in den USA übertragen und dort gespeichert. Bei der Übertragung wird deine
 IP-Adresse in der Regel innerhalb der Europäischen Union durch Kürzung anonymisiert. Nur in Ausnahmefällen wird die
