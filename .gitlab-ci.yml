@@ -20,7 +20,7 @@ build:
 deploy:
     stage: deploy
     only:
-        - production
+        - master
     script:
         - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/id_rsa _site/ls_vertretungsplan_me/* gitlab-deploy-web@trelawney.rami.io:/var/www/web/ls/
         - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/id_rsa _site/vertretungsplan_me/* gitlab-deploy-web@trelawney.rami.io:/var/www/web/main/
