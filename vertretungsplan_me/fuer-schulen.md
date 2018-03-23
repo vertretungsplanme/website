@@ -29,12 +29,11 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
  - {: .list-group-item .list-group-item-davinci} ###### ![DAVINCI](/img/icons/davinci.svg)
     * DAVINCI Infoserver (direkt via API angebunden)
     * alternativ: HTML-Export
-    
+
     [mehr Informationen](https://davinci.stueber.de/davinci-infoserver.php)
  - {: .list-group-item} ###### Untis
     * Info-/Monitor-Stundenplan
     * Vertretungsplan (HTML)
-    * WebUntis <small>(keine Push-Benachrichtigungen möglich)</small>
  - {: .list-group-item} ###### svPlan
     HTML-Export
  - {: .list-group-item} ###### Turbo-Vertretung
@@ -77,7 +76,7 @@ diese (eventuell gegen Aufpreis) anzubinden.
 ![Passwortschutz](/img/icons/lock_outline.svg){:width="70px" .img-responsive .center-block}
 </div>
 <div class="col-sm-10">
-Die oben genannten Vertretungspläne können auch mit Zugangsdaten geschützt sein. Einige Systeme (z.B. WebUntis,
+Die oben genannten Vertretungspläne können auch mit Zugangsdaten geschützt sein. Einige Systeme (z.B. Stundenplan24,
 LegionBoard) bieten dazu eigene Möglichkeiten an. Alternativ kann der Plan aber auch auf der Schulwebsite über
 HTML-Formulare oder HTTP Basic Authentication oder über zusätzliche Systeme wie *iServ* oder
 *Moodle* geschützt werden. Die Zugangsdaten müssen dann entsprechend in der App eingegeben werden.
