@@ -26,4 +26,21 @@
   <link rel="stylesheet" href="{{ "/css/vendor/photoswipe/default-skin/default-skin.min.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+          var u="//piwik.glokta.rami.io/";
+          _paq.push(['setTrackerUrl', u+'piwik.php']);
+          _paq.push(['setSiteId', '{{ site.matomo_id }}']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+  </script>
+  <noscript><p><img src="//piwik.glokta.rami.io/piwik.php?idsite={{ site.matomo_id }}&rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Matomo Code -->
 </head>

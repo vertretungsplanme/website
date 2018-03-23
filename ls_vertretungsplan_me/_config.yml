@@ -17,7 +17,7 @@ twitter_username: ls_vplan
 android_packagename: com.johan.vertretungsplan
 windows_phone_url: http://www.windowsphone.com/s?appid=106bf2ea-f1b8-403a-a28e-67a06fee95be
 apple_app_id: 1191463720
-google_analytics_id: UA-39383511-4
+matomo_id: 10
 exclude:
   - node_modules
   - gulpfile.js
