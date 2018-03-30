@@ -38,7 +38,6 @@ $(function () {
         cache: true,
         success: function (response) {
             var schools = response.results;
-            $("#schools-counter").text(schools.length);
             $("#loading-schools").remove();
             var element = $("#supported-schools-list");
             var markers = [];
