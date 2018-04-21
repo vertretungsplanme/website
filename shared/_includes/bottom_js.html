@@ -10,3 +10,25 @@
 {% for js in page.customjs %}
 <script type="text/javascript" src="{{ js }}"></script>
 {% endfor %}
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#efefef",
+                    "text": "#2b3b7d"
+                },
+                "button": {
+                    "background": "#466afa",
+                    "text": "#ffffff"
+                }
+            },
+            "theme": "edgeless",
+            "content": {
+                "message": "Diese Website nutzt Cookies um Ihr Nutzungserlebnis zu verbessern.",
+                "dismiss": "Verstanden!",
+                "link": "Mehr Infos und Opt-Out",
+                "href": "/impressum/"
+            }
+        })});
+</script>

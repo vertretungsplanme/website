@@ -24,7 +24,9 @@
   <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/vendor/photoswipe/photoswipe.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/vendor/photoswipe/default-skin/default-skin.min.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/cookieconsent.min.css" | prepend: site.baseurl }}">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Matomo -->
@@ -43,4 +45,6 @@
   </script>
   <noscript><p><img src="//piwik.glokta.rami.io/piwik.php?idsite={{ site.matomo_id }}&rec=1" style="border:0;" alt="" /></p></noscript>
   <!-- End Matomo Code -->
+
+  <script src="{{ "/js/cookieconsent.min.js" | prepend: site.baseurl }}"></script>
 </head>
