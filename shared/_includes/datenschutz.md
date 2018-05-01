@@ -28,13 +28,23 @@ Zugangsdaten werden nur einmalig im Klartext übertragen, bei nachfolgenden Abru
 Authentifizierung in einem verschlüsselten Format. Trotz der Speicherung im Klartext sind die Daten auf dem Weg zum
 Server weiterhin durch die Transportverschlüsselung (HTTPS) geschützt.
 
-### Google Analytics
+#### Nutzungsanalyse durch Matomo
 
-Zur Analyse und Optimierung der App verwenden wir Google Analytics, eine Software von Google Inc. ("Google") zur
-statistischen Auswertung der Benutzerzugriffe. Dazu werden bei der Nutzung der App **anonyme Daten zur Nutzung der App**
-gesammelt, an einen Server von Google in den USA übertragen und dort gespeichert. Bei der Übertragung wird deine
-IP-Adresse in der Regel innerhalb der Europäischen Union durch Kürzung anonymisiert. Nur in Ausnahmefällen wird die
-volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Die übertragenen Daten werden von
- Google in meinem Auftrag verarbeitet, um die Nutzung der App auszuwerten und nicht an Dritte weitergegeben. *Wenn du
- dieser Datenerhebung durch Google Analytics nicht zustimmst, so deaktiviere die Option "Google Analytics" in den
- Einstellungen der App.*
+<p>
+    Wir nutzen in unserer App das Open-Source-Software-Tool Matomo (ehemals PIWIK) zur Analyse des
+    Nutzungsverhaltens unserer Nutzer. Werden Einzelseiten der App aufgerufen, so werden folgende Daten gespeichert:
+</p>
+<ul>
+    <li>Zwei Bytes der IP-Adresse des aufrufenden Systems des Nutzers</li>
+    <li>Die aufgerufene Seite</li>
+    <li>Die Unterseiten, die von der aufgerufenen Seite aus aufgerufen werden</li>
+    <li>Die Verweildauer in der App</li>
+    <li>Die Häufigkeit des Aufrufs der App</li>
+</ul>
+<p>
+    Die Software läuft dabei ausschließlich auf den Servern unserer Webseite. Eine Speicherung der personenbezogenen
+    Daten der Nutzer findet nur dort statt. Eine Weitergabe der Daten an Dritte erfolgt nicht. Die Software ist so
+    eingestellt, dass die IP-Adressen nicht vollständig gespeichert werden, sondern 2 Bytes der IP-Adresse maskiert
+    werden (Bsp.: 192.168.xxx.xxx). Auf diese Weise ist eine Zuordnung der gekürzten IP-Adresse zum aufrufenden
+    Rechner nicht mehr möglich.
+</p>
