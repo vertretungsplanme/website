@@ -48,3 +48,8 @@ Server weiterhin durch die Transportverschlüsselung (HTTPS) geschützt.
     werden (Bsp.: 192.168.xxx.xxx). Auf diese Weise ist eine Zuordnung der gekürzten IP-Adresse zum aufrufenden
     Rechner nicht mehr möglich.
 </p>
+<p>
+    Durch eine Änderung der Einstellungen in der App kannst du die Übertragung Nutzungsdaten deaktivieren.
+    Diese Einstellung bleibt für die App auf dem genutzten Gerät gültig, bis du sie durch Neuinstallation der App,
+    erneute Änderung oder explizite Löschung der Einstellungen zurücksetzt.
+</p>
