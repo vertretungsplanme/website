@@ -46,10 +46,10 @@ Server weiterhin durch die Transportverschlüsselung (HTTPS) geschützt.
     Daten der Nutzer findet nur dort statt. Eine Weitergabe der Daten an Dritte erfolgt nicht. Die Software ist so
     eingestellt, dass die IP-Adressen nicht vollständig gespeichert werden, sondern 2 Bytes der IP-Adresse maskiert
     werden (Bsp.: 192.168.xxx.xxx). Auf diese Weise ist eine Zuordnung der gekürzten IP-Adresse zum aufrufenden
-    Rechner nicht mehr möglich.
+    Gerät nicht mehr möglich.
 </p>
 <p>
-    Durch eine Änderung der Einstellungen in der App kannst du die Übertragung Nutzungsdaten deaktivieren.
+    Durch eine Änderung der Einstellungen in der App kannst du die Übertragung der Nutzungsdaten deaktivieren.
     Diese Einstellung bleibt für die App auf dem genutzten Gerät gültig, bis du sie durch Neuinstallation der App,
     erneute Änderung oder explizite Löschung der Einstellungen zurücksetzt.
 </p>
