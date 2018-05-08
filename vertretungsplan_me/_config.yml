@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Vertretungsplan.me
-email: info@vertretungsplan.me
+title: Vertretungsplan.app
+email: info@vertretungsplan.app
 description: >
   Mit der kostenlosen Vertretungsplan-App kannst du den Vertretungsplan deiner Schule mit
   Android™-Smartphones und -Tablets, iPhones und iPads komfortabel und mit einem tollen Design abrufen.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vertretungsplan.me" # the base hostname & protocol for your site
+url: "https://vertretungsplan.app" # the base hostname & protocol for your site
 twitter_username: vplan_app
 facebook_username: vertretungsplanme
 instagram_username: vplan_app

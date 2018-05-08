@@ -46,7 +46,7 @@ $(function () {
             });
             $.each(schools, function (i, item) {
                 if (item.country === "Demo-Schulen") return;
-                
+
                 var latlng = new google.maps.LatLng(item.geo[1], item.geo[0]);
                 var marker = new google.maps.Marker({
                     position: latlng,
