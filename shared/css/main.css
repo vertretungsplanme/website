@@ -222,23 +222,16 @@ h3 {
     height: 35px;
 }
 
-.software-list .list-group-item-davinci {
-    background: #2196f3;
-    color: white;
-}
-
 .software-list .list-group-item-iphis {
     background: #aa1218;
     color: white;
 }
 
-.software-list .list-group-item-davinci a,
 .software-list .list-group-item-legionboard a,
 .software-list .list-group-item-iphis a {
     color: #fff;
 }
 
-.software-list .list-group-item-davinci a:before,
 .software-list .list-group-item-legionboard a:before,
 .software-list .list-group-item-iphis a:before {
     content: "\f061";
@@ -246,7 +239,6 @@ h3 {
     margin-right: 8px;
 }
 
-.software-list .list-group-item-davinci a:hover,
 .software-list .list-group-item-legionboard a:hover,
 .software-list .list-group-item-iphis a:hover {
     color: #bbb;
