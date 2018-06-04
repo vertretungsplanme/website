@@ -84,7 +84,7 @@ Die damit erzeugten Vertretungspläne kann die App in den meisten Fällen automa
 einzige dafür benötigte Information ist häufig eine Liste aller Klassennamen, die auf dem Vertretungsplan auftauchen
 können (also z.B. 05a, 05b, 06a, ...).
 
-Wenn der Vertretungsplan mit einem Passwort geschützt ist, zum Beispiel mit DSB oder iServ oder einer eigenen
+Wenn der Vertretungsplan mit einem Passwort geschützt ist, zum Beispiel mit iServ oder einer eigenen
 Login-Seite auf der Schulwebsite, benötigen wir zum Einbinden des Vertretungsplans in die App gültige Zugangsdaten.
 Der Vertretungsplan ist dann in der App ebenfalls passwortgeschützt. Auch wenn jeder Schüler ein eigenes
 Benutzerkonto hat, funktioniert das Login in der App damit.
@@ -92,8 +92,11 @@ Benutzerkonto hat, funktioniert das Login in der App damit.
 Das WebUntis-System unterstützen wir ebenfalls, allerdings müssen dort Benutzerkonten eingerichtet sein und zum Login in
 der App verwendet werden. In WebUntis kann zwar auch ein anonymer Zugriff aktiviert werden, der Hersteller
 Gruber&Petters erlaubt es externen Apps jedoch im Moment nicht, diesen Zugang zu nutzen. Bei WebUntis dürfen wir
-außerdem mit meinem Server den Plan nur alle 10 Minuten abrufen (bei anderen Systemen geschieht das jede Minute). Daher
-kann es passieren, dass die Push-Benachrichtigungen in der App später eintreffen.
+außerdem mit meinem Server den Plan nur alle 2 Stunden abrufen (bei anderen Systemen geschieht das jede Minute). Daher
+treffen die Push-Benachrichtigungen in der App hier meist erst sehr viel später ein. Eine Möglichkeit, diese
+Beschränkung zu umgehen, wäre es, den Vertretungsplan zusätzlich aus Untis als HTML-Datei zu exportieren und auf die
+Schulwebsite hochzuladen, sodass die App ihn von dort abrufen kann. Auch hier kann der Plan mit einem Passwort geschützt
+werden.
 
 Wenn Sie ein anderes System verwenden, können Sie uns gern kontaktieren. Bei Interesse an der
 [Schullizenz](/fuer-schulen/#vertretungsplan-pro--schullizenz) ist eventuell auch eine Integration Ihrer
