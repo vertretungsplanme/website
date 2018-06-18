@@ -15,11 +15,11 @@ Die Vertretungsplan-App ist ein Projekt von
 
 Johan von Forstner und Raphael Michel\\
 rami.io Softwareentwicklung\\
-Rathausstraße 19/2\\
+Römerstraße 245\\
 69126 Heidelberg\\
 Deutschland\\
 E-Mail: [{{site.email}}](mailto:{{site.email}})\\
-Büro: +49 621 180 696 58\\
+Büro: +49 6221 3217770\\
 USt-IdNr.: DE297792401
 
 {% include disclaimer.md %}
