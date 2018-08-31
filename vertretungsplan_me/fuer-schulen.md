@@ -45,7 +45,7 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
     [mehr Informationen](https://www.tk-schulsoftware.de/iphis/vertretung-klassenbuch/)
  - {: .list-group-item .list-group-item-legionboard} ###### ![LegionBoard](/img/icons/legionboard-with-text.svg)
     direkt via API angebunden\\
-    [mehr Informationen](https://legionboard.org/index_de.html)
+    [mehr Informationen](https://legionboard.dorfbrunnen.eu/index_de.html)
  - {: .list-group-item} ###### Indiware
     * XML- bzw. HTML-Export
     * Stundenplan24.de
