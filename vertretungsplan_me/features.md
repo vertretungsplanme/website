@@ -46,6 +46,7 @@ Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, un
       <th style="text-align: right"> </th>
       <th style="text-align: center">Vertretungsplan Standard</th>
       <th style="text-align: center">Vertretungsplan Pro</th>
+      <th style="text-align: center">Vertretungsplan Pro - Schullizenz</th>
     </tr>
   </thead>
   <tbody>
@@ -53,9 +54,11 @@ Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, un
       <td style="text-align: right">Vertretungspläne von <span class="schools-count">...</span> Schulen</td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
       <td style="text-align: right">Auswahl der eigenen Klasse</td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
@@ -63,41 +66,79 @@ Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, un
       <td style="text-align: right">Benachrichtigung bei Änderungen</td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
       <td style="text-align: right">Widget auf dem Startbildschirm</td>
       <td style="text-align: center" class="warning"><i>nur Android</i></td>
+      <td style="text-align: center" class="success"><i>Android & iOS</i></td>
       <td style="text-align: center" class="success"><i>Android & iOS</i></td>
     </tr>
     <tr>
       <td style="text-align: right">Stellenanzeigen von <a href="https://schuelerkarriere.de">Schülerkarriere</a></td>
       <td style="text-align: center" class="info"><i>immer aktiv</i></td>
       <td style="text-align: center" class="success"><i>optional</i></td>
+      <td style="text-align: center" class="success"><i>optional</i></td>
     </tr>
     <tr>
       <td style="text-align: right">Mehrere Klassen und Schulen gleichzeitig auswählen</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
-      <td style="text-align: right">Lehrervertretungspläne anzeigen (für manche Schulen, meist passwortgeschützt)</td>
+      <td style="text-align: right">Lehrervertretungspläne anzeigen (für manche Schulen) & nach Lehrerkürzel filtern</td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Integration mit <a href="/dienste/">Google Assistant und Alexa</a></td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Farben der Vertretungen anpassen</td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
+      <td style="text-align: center" class="success"><i>durch den Nutzer</i></td>
+      <td style="text-align: center" class="success"><i>durch Nutzer & Schule</i></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Einbindung Schullogo/Foto der Schule, Anpassung der Farben ans Corporate Design</td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
-      <td style="text-align: right">Integration mit <a href="/dienste/">Google Assistant und Amazon Alexa</a></td>
+      <td style="text-align: right">Einbindung Schullogo/Foto der Schule</td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
-      <td style="text-align: right">Farben der Vertretungen und des Widgets anpassen</td>
+      <td style="text-align: right">Integration von Terminkalender & Nachrichten</td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Versand von Textnachrichten an die App</td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Software zur Monitoranzeige des Vertretungsplans</td>
+      <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr class="info">
       <td style="text-align: right"><strong>Preis</strong></td>
       <td style="text-align: center"><strong>kostenlos</strong></td>
-      <td style="text-align: center"><strong>1,99 €</strong> (In-App-Kauf)<br /><a href="/fuer-schulen/#vertretungsplan-pro--schullizenz">Schullizenz auf Anfrage</a></td>
+      <td style="text-align: center"><strong>1,99 €</strong> (In-App-Kauf)</td>
+      <td style="text-align: center"><strong>auf Anfrage</strong><br><a href="/fuer-schulen/#vertretungsplan-pro--schullizenz">mehr Informationen</a></td>
     </tr>
   </tbody>
 </table>
