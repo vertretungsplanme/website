@@ -87,7 +87,7 @@ Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, un
       <td style="text-align: center" class="success"><strong>✓</strong></td>
     </tr>
     <tr>
-      <td style="text-align: right">Lehrervertretungspläne anzeigen (für manche Schulen) & nach Lehrerkürzel filtern</td>
+      <td style="text-align: right">Lehrervertretungspläne anzeigen (für manche Schulen) und nach Lehrerkürzel filtern</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
       <td style="text-align: center" class="success"><strong>✓</strong></td>
@@ -108,31 +108,25 @@ Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, un
       <td style="text-align: right">Einbindung Schullogo/Foto der Schule, Anpassung der Farben ans Corporate Design</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
-      <td style="text-align: center" class="success"><strong>✓</strong></td>
-    </tr>
-    <tr>
-      <td style="text-align: right">Einbindung Schullogo/Foto der Schule</td>
-      <td style="text-align: center" class="danger"><strong>–</strong></td>
-      <td style="text-align: center" class="danger"><strong>–</strong></td>
-      <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong> <i>(gegen Aufpreis)</i></td>
     </tr>
     <tr>
       <td style="text-align: right">Integration von Terminkalender & Nachrichten</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
-      <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong> <i>(gegen Aufpreis)</i></td>
     </tr>
     <tr>
       <td style="text-align: right">Versand von Textnachrichten an die App</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
-      <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong> <i>(gegen Aufpreis)</i></td>
     </tr>
     <tr>
       <td style="text-align: right">Software zur Monitoranzeige des Vertretungsplans</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
-      <td style="text-align: center" class="success"><strong>✓</strong></td>
+      <td style="text-align: center" class="success"><strong>✓</strong> <i>(gegen Aufpreis)</i></td>
     </tr>
     <tr class="info">
       <td style="text-align: right"><strong>Preis</strong></td>
