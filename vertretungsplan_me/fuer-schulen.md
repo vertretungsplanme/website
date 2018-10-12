@@ -145,7 +145,7 @@ oder z.B. in Excel? Vielleicht ist dann LegionBoard eine spannende Alternative f
 LegionBoard ist ein modernes und einfach zu bedienendes System zur Erstellung von Vertretungsplänen. Es ist komplett
 Open Source und kostenlos, bietet einen passwortgeschützten Zugriff, kann mit wenigen Handgriffen auf Ihrem eigenen
 Server installiert werden und ist vollständig mit den Apps von Vertretungsplan.me kompatibel.
-Weitere Informationen finden Sie unter [legionboard.org](http://legionboard.org/index_de.html).
+Weitere Informationen finden Sie auf der [Website von LegionBoard](https://legionboard.dorfbrunnen.eu/index_de.html).
 </div>
 </div>
 </div>
