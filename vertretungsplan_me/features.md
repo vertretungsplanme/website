@@ -105,6 +105,12 @@ Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, un
       <td style="text-align: center" class="success"><i>durch Nutzer & Schule</i></td>
     </tr>
     <tr>
+          <td style="text-align: right">Vertrag zur Auftragsdatenverarbeitung nach DSGVO für die Schule</td>
+          <td style="text-align: center" class="danger"><strong>–</strong></td>
+          <td style="text-align: center" class="danger"><strong>–</strong></td>
+          <td style="text-align: center" class="success"><strong>✓</strong> <i>auf Wunsch</i></td>
+        </tr>
+    <tr>
       <td style="text-align: right">Einbindung Schullogo/Foto der Schule, Anpassung der Farben ans Corporate Design</td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
       <td style="text-align: center" class="danger"><strong>–</strong></td>
