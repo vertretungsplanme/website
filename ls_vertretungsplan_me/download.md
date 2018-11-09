@@ -27,20 +27,12 @@ Play Store möglich[^1].
 
 ### iOS
 
-Hier kannst du die App [„Vertretungsplan - 500+ Schulen“](https://vertretungsplan.me/) für dein iPhone, iPad oder iPod
-touch im App Store herunterladen (es gibt vorerst keine Spezialversion für die Lornsenschule). Die App ist nicht auf die
-Lornsenschule beschränkt, enthält aber die gleichen Funktionen.
+Hier kannst du die App [„Vertretungsplan.app - 600+ Schulen“](https://vertretungsplan.me/) für dein iPhone, iPad oder iPod
+touch im App Store herunterladen (es gibt vorerst keine Spezialversion für die Lornsenschule). Die App unterstützt neben der
+Lornsenschule noch viele weitere Funktionen, enthält aber die gleichen Funktionen und ist für die Lornsenschule komplett kostenlos nutzbar.
 
 <a class="btn btn-black btn-embossed" href="https://itunes.apple.com/de/app/id{{ site.apple_app_id }}?mt=8">
     <img height="50" src="{{ '/img/apple_app_store.svg' | prepend: site.baseurl }}"/>
-</a>
-
-### Windows Phone
-
-Außerdem gibt es eine rudimentäre Version der App für Windows Phone. Diese bietet leider bisher nur sehr wenige Funktionen.
-
-<a class="btn btn-black btn-embossed" href="{{ site.windows_phone_url }}">
-    <img height="50" src="{{ '/img/microsoft.svg' | prepend: site.baseurl }}"/>
 </a>
 
 #### Fußnoten
