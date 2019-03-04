@@ -200,26 +200,8 @@ h3 {
 
 }
 
-.jumbotron-legionboard {
-    background: #e74c3c;
-    color: white;
-}
-
-.jumbotron-legionboard a {
-    color: #b9c8dc;
-}
-
-.software-list .list-group-item-legionboard {
-    background: #272833;
-    color: white;
-}
-
 .software-list .list-group-item h6 img {
     height: 30px;
-}
-
-.software-list .list-group-item-legionboard h6 img {
-    height: 35px;
 }
 
 .software-list .list-group-item-iphis {
@@ -227,19 +209,16 @@ h3 {
     color: white;
 }
 
-.software-list .list-group-item-legionboard a,
 .software-list .list-group-item-iphis a {
     color: #fff;
 }
 
-.software-list .list-group-item-legionboard a:before,
 .software-list .list-group-item-iphis a:before {
     content: "\f061";
     font-family: FontAwesome;
     margin-right: 8px;
 }
 
-.software-list .list-group-item-legionboard a:hover,
 .software-list .list-group-item-iphis a:hover {
     color: #bbb;
 }

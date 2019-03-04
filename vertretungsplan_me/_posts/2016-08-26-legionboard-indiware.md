@@ -6,7 +6,7 @@ layout: post
 In der letzten Zeit wurde die Unterstützung für zwei neue Vertretungsplansysteme in der App implementiert:
 
 ### LegionBoard
-[LegionBoard](http://legionboard.org/index_de.html) ist ein Open Source-Vertretungsplansystem von [Nico Alt](https://altnico.github.io/). Die Schnittstelle dazu für meine App hat er selbst implementiert. Vielen Dank dafür!
+[LegionBoard](https://legionboard.dorfbrunnen.eu/index_de.html) ist ein Open Source-Vertretungsplansystem von [Nico Alt](https://nico.dorfbrunnen.eu/). Die Schnittstelle dazu für meine App hat er selbst implementiert. Vielen Dank dafür!
 
 Die erste und bisher einzige Schule, die LegionBoard verwendet, ist das Lichtenberg-Oberstufengymnasium Bruchköbel. Seit dem 04.08. ist die Schule in der App auswählbar.
 
