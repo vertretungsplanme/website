@@ -43,9 +43,6 @@ Die folgenden Vertretungsplan-Softwares werden von der App unterstützt:
  - {: .list-group-item .list-group-item-iphis} ###### ![IPHIS](/img/icons/iphis.svg)
     direkt via API angebunden\\
     [mehr Informationen](https://www.tk-schulsoftware.de/iphis/vertretung-klassenbuch/)
- - {: .list-group-item .list-group-item-legionboard} ###### ![LegionBoard](/img/icons/legionboard-with-text.svg)
-    direkt via API angebunden\\
-    [mehr Informationen](https://legionboard.dorfbrunnen.eu/index_de.html)
  - {: .list-group-item} ###### Indiware
     * XML- bzw. HTML-Export
     * Stundenplan24.de
@@ -73,8 +70,8 @@ diese (eventuell gegen Aufpreis) anzubinden.
 ![Passwortschutz](/img/icons/lock_outline.svg){:width="70px" .img-responsive .center-block}
 </div>
 <div class="col-sm-10">
-Die oben genannten Vertretungspläne können auch mit Zugangsdaten geschützt sein. Einige Systeme (z.B. Stundenplan24,
-LegionBoard) bieten dazu eigene Möglichkeiten an. Alternativ kann der Plan aber auch auf der Schulwebsite über
+Die oben genannten Vertretungspläne können auch mit Zugangsdaten geschützt sein. Einige Systeme (z.B. Stundenplan24)
+bieten dazu eigene Möglichkeiten an. Alternativ kann der Plan aber auch auf der Schulwebsite über
 HTML-Formulare oder HTTP Basic Authentication oder über zusätzliche Systeme wie *iServ* oder
 *Moodle* geschützt werden. Die Zugangsdaten müssen dann entsprechend in der App eingegeben werden.
 </div>
@@ -127,25 +124,6 @@ Internetanschluss und ein aktueller Webbrowser benötigt.
 
 Die Monitordarstellung wird als Zusatz zur [Schullizenz](#vertretungsplan-pro--schullizenz) angeboten. Wenn Sie 
 Interesse daran haben, sprechen Sie uns an!
-</div>
-</div>
-</div>
-
-<div class="jumbotron jumbotron-normal-font jumbotron-legionboard">
-### LegionBoard
-
-<div class="row">
-<div class="col-sm-2 top-padding">
-![LegionBoard Logo](/img/icons/legionboard.svg){:width="90px" .img-responsive .center-block}
-</div>
-<div class="col-sm-10">
-Ihre Schule nutzt bisher noch keine spezielle Software für den Vertretungsplan, sondern erstellt ihn per Hand auf Papier
-oder z.B. in Excel? Vielleicht ist dann LegionBoard eine spannende Alternative für Sie.
-
-LegionBoard ist ein modernes und einfach zu bedienendes System zur Erstellung von Vertretungsplänen. Es ist komplett
-Open Source und kostenlos, bietet einen passwortgeschützten Zugriff, kann mit wenigen Handgriffen auf Ihrem eigenen
-Server installiert werden und ist vollständig mit den Apps von Vertretungsplan.me kompatibel.
-Weitere Informationen finden Sie auf der [Website von LegionBoard](https://legionboard.dorfbrunnen.eu/index_de.html).
 </div>
 </div>
 </div>
