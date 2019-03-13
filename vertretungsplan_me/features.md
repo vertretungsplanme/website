@@ -137,7 +137,7 @@ Die Version *Vertretungsplan Pro* ist in Form eines In-App-Kaufs erhältlich, un
     <tr class="info">
       <td style="text-align: right"><strong>Preis</strong></td>
       <td style="text-align: center"><strong>kostenlos</strong></td>
-      <td style="text-align: center"><strong>1,99 €</strong> (In-App-Kauf)</td>
+      <td style="text-align: center"><strong>2,99 €</strong> (In-App-Kauf)</td>
       <td style="text-align: center"><strong>auf Anfrage</strong><br><a href="/fuer-schulen/#vertretungsplan-pro--schullizenz">mehr Informationen</a></td>
     </tr>
   </tbody>
